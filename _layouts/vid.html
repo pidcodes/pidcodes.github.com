@@ -1,0 +1,33 @@
+{% include data.html %}
+{% assign org = {{orgs|where:"orgname",page.owner|first}} %}
+{% assign urlparts = page.url|split:"/" %}
+{% assign vid = urlparts[1] %}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="{% if site.animated %}animated fade-in-down{% endif %}">
+  <div class="site-wrap">
+    {% include header.html %}
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+          <header class="post-header">
+            <h1 class="h2">
+            	Vendor ID {{vid}}
+            </h1>
+          </header>
+          <article class="post-content">
+            {{ content }}
+
+            <h2>PIDs</h2>
+            {% include pidtable.html vid=vid %}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+</html>

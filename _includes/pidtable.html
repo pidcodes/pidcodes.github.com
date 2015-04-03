@@ -1,0 +1,15 @@
+{% include data.html %}
+<table>
+  <thead>
+    <tr><th>PID</th><th>Device</th></tr>
+  </thead>
+  {% for pid in pids %}
+    {% assign urlparts = pid.url|split:"/" %}
+    {% if include.vid == urlparts[1] %}
+      <tr>
+        <th><a href="{{pid.url}}">{{urlparts[2]}}</a></th>
+        <td>{{pid.title}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

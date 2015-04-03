@@ -6,9 +6,11 @@
   {% for pid in pids %}
     {% assign urlparts = pid.url|split:"/" %}
     {% if include.vid == urlparts[1] %}
+      {% capture orgpath %}/org/{{pid.owner}}/{% endcapture %}
+      {% assign org = orgs|where:"url",orgpath|first %}
       <tr>
         <th><a href="{{pid.url}}">{{urlparts[2]}}</a></th>
-        <td>{{pid.title}}</td>
+        <td>{{org.title}} {{pid.title}}</td>
       </tr>
     {% endif %}
   {% endfor %}

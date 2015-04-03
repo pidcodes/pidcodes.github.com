@@ -26,5 +26,8 @@ Yes, absolutely. You need to have created a repository for your source code some
 ### My project is no longer OSH-licensed, what happens to my PID?
 We'd really rather you didn't do this, but we won't try and 'take away' your PID. Once it's assigned to you, it's yours until the heat death of the universe. However, don't expect any more PIDs from us in future!
 
+### What if I request a PID at the same time as someone else?
+PIDs are allocated in the order pull requests are submitted. If the first pull request is rejected for whatever reason, the PID will go to a subsequent requester.
+
 ### How do I contact you?
 Email us at [admin@pid.codes](mailto:admin@pid.codes).

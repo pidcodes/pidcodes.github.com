@@ -4,7 +4,7 @@ title: About pid.codes
 permalink: /about/
 ---
 
-If you're a maker, hobbyist, or startup company producing your own USB device, you'll need a USB Vendor ID and Product ID to uniquely identify your device to computers. The USB-IF's position is that the only way to do this is for each organisation to [pay $5000 for a unique Vendor ID](http://www.usb.org/developers/vendor/), which they may not share with other individuals or organisations.
+If you're a maker, hobbyist, or startup company producing your own USB device, you'll need a USB Vendor ID and Product ID to uniquely identify your device to computers. The USB-IF's position is that the only way to do this is for each organisation to [pay $5000 for a unique Vendor ID](http://www.usb.org/developers/vendor/), which may not be shared with other individuals or organisations.
 
 For many makers and small companies, this is a prohibitive amount of money, and forces them to resort to workarounds, such as using other organisations' VIDs without permission, or simply making up a VID and PID. These solutions make things worse for everyone, by damaging the assumption that a VID/PID combination is unique to a given device.
 

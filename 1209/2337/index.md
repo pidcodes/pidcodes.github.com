@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: /Net
-owner: /Dev
+owner: slashdev
 license: MIT
 site: http://www.slashdev.nl/
 source: https://github.com/slashdev/slashnet/

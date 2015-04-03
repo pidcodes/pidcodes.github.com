@@ -3,6 +3,14 @@ layout: page
 title: How to get a PID code
 permalink: /howto/
 ---
+## 0. Prerequisites
+If your project does not meet the following criteria, your pull request **will** be rejected:
+ - Publicly available source code repository...
+ - Containing schematics or source code for a device with a USB interface...
+ - Licensed under a recognized open source or open source hardware license.
+
+If your project doesn't yet meet these requirements, please hold off requesting a PID until it does. Don't worry, we're not likely to run out of PIDs soon.
+
 ## 1. Fork us
 Create a fork of [our repository](https://github.com/pidcodes/pidcodes.github.com) on GitHub.
 

@@ -1,3 +1,7 @@
+{% include data.html %}
+{% assign urlparts = page.url|split:"/" %}
+{% assign orgname = urlparts[2] %}
+{% assign ourpids = pids|where:"owner",orgname %}
 <!DOCTYPE html>
 <html>
 {% include head.html %}
@@ -13,6 +17,21 @@
           </header>
           <article class="post-content">
             {{ content }}
+
+            <h2>Allocated PIDs</h2>
+              <table>
+                <thead>
+                  <tr><th>VID</th><th>PID</th><th>Device</th></tr>
+                </thead>
+                {% for pid in ourpids %}
+                  {% assign pidurlparts = pid.url|split:"/" %}
+                  <tr>
+                    <th><a href="/{{pidurlparts[1]}}/">{{pidurlparts[1]}}</a></th>
+                    <th><a href="{{pid.url}}">{{pidurlparts[2]}}</a></th>
+                    <td>{{page.title}} {{pid.title}}</td>
+                  </tr>
+                {% endfor %}
+              </table>
           </article>
         </div>
       </div>

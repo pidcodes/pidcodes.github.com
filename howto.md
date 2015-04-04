@@ -8,7 +8,7 @@ If your project does not meet the following criteria, your pull request **will**
  
  - Publicly available source code repository...
  - Containing schematics or source code for a device with a USB interface...
- - Licensed under a recognized open source or open source hardware license.
+ - Licensed under a recognized open source or open source hardware license. Your source code repository must contain a LICENSE file attesting to this fact.
 
 If your project doesn't yet meet these requirements, please hold off requesting a PID until it does. Don't worry, we're not likely to run out of PIDs soon.
 

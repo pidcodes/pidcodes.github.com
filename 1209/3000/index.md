@@ -2,7 +2,7 @@
 layout: pid
 title: lloyd3000's USB device
 owner: lloyd3000
-license: MIT
+license: GNU General Public License
 site: http://www.lloyd3000.com/
 source: https://github.com/Lloyd3000/Ultrasonic-Music-Control
 ---

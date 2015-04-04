@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: mooltipass
+title: Mooltipass
 owner: mooltipass
 license: CDDL
 site: https://github.com/limpkin/mooltipass

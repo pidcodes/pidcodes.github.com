@@ -1,5 +1,3 @@
-
-
 ---
 layout: pid
 title: USB: The Universal Serial Bus: ATTINY2313

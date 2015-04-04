@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: WillemWouters
+title: Utilizer EMW
 owner: WillemWouters
 license: GPLv2
-site: http://github.com/willemwouters
-source: http://github.com/willemwouters
+site: http://hackaday.io/project/4128-emw3162
+source: https://github.com/willemwouters/EMW3162_WICED
 ---

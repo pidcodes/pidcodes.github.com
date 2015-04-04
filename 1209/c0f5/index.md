@@ -1,5 +1,5 @@
 ---
-layout: C0F5
+layout: pid
 title: PERswitch
 owner: unethi
 license: GPL

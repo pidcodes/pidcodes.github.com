@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: USB: The Universal Serial Bus: ATTINY2313
-owner: Forever Young Software
+owner: fysnet
 license: LGPLv2
 site: http://www.fysnet.net/attiny2313.htm
 source: http://github.com/fysnet/attiny2313/

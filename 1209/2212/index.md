@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Anootech Flight Controller
-owner: anootech
+owner: Anootech
 license: MIT
 site: https://anooserve.com/anootech/
 source: https://anooserve.com/anootech/files/

@@ -9,7 +9,7 @@
       {% capture orgpath %}/org/{{pid.owner}}/{% endcapture %}
       {% assign org = orgs|where:"url",orgpath|first %}
       <tr>
-        <th><a href="{{pid.url}}">{{urlparts[2]}}</a></th>
+        <th><a href="{{pid.url}}">{{urlparts[2]|upcase}}</a></th>
         <td>{{org.title}} {{pid.title}}</td>
       </tr>
     {% endif %}

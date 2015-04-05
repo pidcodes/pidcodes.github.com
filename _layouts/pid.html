@@ -6,7 +6,7 @@
 {% assign pid = urlparts[2] %}
 <!DOCTYPE html>
 <html>
-{% capture title %}{{page.vid}}/{{page.pid}} {{page.title}}{% endcapture %}
+{% capture title %}{{page.vid}}/{{page.pid|upcase}} {{page.title}}{% endcapture %}
 {% include head.html title=title %}
 <body class="{% if site.animated %}animated fade-in-down{% endif %}">
   <div class="site-wrap">
@@ -18,14 +18,14 @@
           <header class="post-header">
             <h1 class="h2">
             	<a href="/{{vid}}/">{{vid}}</a> /
-              {{pid}} -
+              {{pid|upcase}} -
               {{page.title}}
             </h1>
           </header>
           <article class="post-content">
             <table>
               <tr><th>VID</th><td>0x{{vid}}</td></tr>
-              <tr><th>PID</th><td>0x{{pid}}</td></tr>
+              <tr><th>PID</th><td>0x{{pid|upcase}}</td></tr>
               <tr><th>Owner</th><td><a href="{{org.url}}">{{org.title}}</a></td></tr>
               <tr><th>License</th><td>{{page.license}}</td></tr>
               {% if page.site %}

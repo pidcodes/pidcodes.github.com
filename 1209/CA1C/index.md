@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: KnightOS Generic Hub
+title: Generic Hub
 owner: knightos
 license: MIT
 site: http://www.knightos.org/

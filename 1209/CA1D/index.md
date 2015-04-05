@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: KnightOS MTP Device
+title: MTP Device
 owner: knightos
 license: MIT
 site: http://www.knightos.org/

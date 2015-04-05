@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Keyboardio Model 01 Bootloader
+title: Model 01 Bootloader
 owner: keyboardio
 license: GPLv2
 site: http://keyboard.io

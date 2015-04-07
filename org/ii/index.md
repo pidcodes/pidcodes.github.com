@@ -4,7 +4,7 @@ title: ii
 ---
 
 ```
-i  : have an an idea
+i  : have an idea
 i! : share with the world
 !i : allow everyone to modify
 ii : and be part of it

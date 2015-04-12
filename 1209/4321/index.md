@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Mooltipass Offline Password Keeper Bootloader
+title: Offline Password Keeper Bootloader
 owner: mooltipass
 license: CDDL
 site: http://www.themooltipass.com

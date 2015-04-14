@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Refflion - IoT Development Board - Bootloader
+title: Refflion - IoT Development Board - Sketch
 owner: PotentialLabs
 license: TAPR Open Hardware License
 site: http://refflion.io

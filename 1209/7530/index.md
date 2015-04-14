@@ -1,9 +1,8 @@
 ---
 layout: pid
-title: Refflion: IoT Development Board - Bootloader
-owner: PotentialLabs
-license: TAPR Open Hardware License
-site: http://refflion.io/
-source: https://bitbucket.org/PotentialLabs/refflion/
+title: My device name
+owner: myorg
+license: MIT
+site: http://www.mysite.com/
+source: http://github.com/myorg/mydevice/
 ---
-Refflion is an upcoming open source WiFi IoT development board based on the popular Arduino platform. This board uses the low cost ESP8266 WiFi Module for Wireless connectivity.

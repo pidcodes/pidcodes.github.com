@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: My device name
-owner: myorg
-license: MIT
-site: http://www.mysite.com/
-source: http://github.com/myorg/mydevice/
+title: Refflion - IoT Development Board - Bootloader
+owner: PotentialLabs
+license: TAPR Open Hardware License
+site: http://refflion.io
+source: https://bitbucket.org/PotentialLabs/refflion
 ---

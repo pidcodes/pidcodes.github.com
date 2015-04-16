@@ -2,4 +2,4 @@
 layout: org
 title: USBscope
 ---
-USB oscilloscope made of ATtiny85 MCU
+2-channel USBscope made of ATtiny45/85 MCU

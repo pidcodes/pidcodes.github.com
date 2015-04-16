@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UsbLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:UsbLibrary.Win32Usb">
+            <summary>
+            Class that wraps USB API calls and structures.
+            </summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.WM_DEVICECHANGE">
+            <summary>Windows message sent when a device is inserted or removed</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DEVICE_ARRIVAL">
+            <summary>WParam for above : A device was inserted</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DEVICE_REMOVECOMPLETE">
+            <summary>WParam for above : A device was removed</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DIGCF_PRESENT">
+            <summary>Used in SetupDiClassDevs to get devices present in the system</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DIGCF_DEVICEINTERFACE">
+            <summary>Used in SetupDiClassDevs to get device interface details</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DEVTYP_DEVICEINTERFACE">
+            <summary>Used when registering for device insert/remove messages : specifies the type of device</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.DEVICE_NOTIFY_WINDOW_HANDLE">
+            <summary>Used when registering for device insert/remove messages : we're giving the API call a window handle</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.PURGE_TXABORT">
+            <summary>Purges Win32 transmit buffer by aborting the current transmission.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.PURGE_RXABORT">
+            <summary>Purges Win32 receive buffer by aborting the current receive.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.PURGE_TXCLEAR">
+            <summary>Purges Win32 transmit buffer by clearing it.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.PURGE_RXCLEAR">
+            <summary>Purges Win32 receive buffer by clearing it.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.GENERIC_READ">
+            <summary>CreateFile : Open file for read</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.GENERIC_WRITE">
+            <summary>CreateFile : Open file for write</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.FILE_SHARE_WRITE">
+            <summary>CreateFile : file share for write</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.FILE_SHARE_READ">
+            <summary>CreateFile : file share for read</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.FILE_FLAG_OVERLAPPED">
+            <summary>CreateFile : Open handle for overlapped operations</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.OPEN_EXISTING">
+            <summary>CreateFile : Resource to be "created" must exist</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.OPEN_ALWAYS">
+            <summary>CreateFile : Resource will be "created" or existing will be used</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.ERROR_IO_PENDING">
+            <summary>ReadFile/WriteFile : Overlapped operation is incomplete.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.INFINITE">
+            <summary>Infinite timeout</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.NullHandle">
+            <summary>Simple representation of a null handle : a closed stream will get this handle. Note it is public for comparison by higher level classes.</summary>
+        </member>
+        <member name="F:UsbLibrary.Win32Usb.InvalidHandleValue">
+            <summary>Simple representation of the handle returned when CreateFile fails.</summary>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.HidD_GetHidGuid(System.Guid@)">
+            <summary>
+            Gets the GUID that Windows uses to represent HID class devices
+            </summary>
+            <param name="gHid">An out parameter to take the Guid</param>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.SetupDiGetClassDevs(System.Guid@,System.String,System.IntPtr,System.UInt32)">
+            <summary>
+            Allocates an InfoSet memory block within Windows that contains details of devices.
+            </summary>
+            <param name="gClass">Class guid (e.g. HID guid)</param>
+            <param name="strEnumerator">Not used</param>
+            <param name="hParent">Not used</param>
+            <param name="nFlags">Type of device details required (DIGCF_ constants)</param>
+            <returns>A reference to the InfoSet</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.SetupDiDestroyDeviceInfoList(System.IntPtr)">
+            <summary>
+            Frees InfoSet allocated in call to above.
+            </summary>
+            <param name="lpInfoSet">Reference to InfoSet</param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.SetupDiEnumDeviceInterfaces(System.IntPtr,System.UInt32,System.Guid@,System.UInt32,UsbLibrary.Win32Usb.DeviceInterfaceData@)">
+            <summary>
+            Gets the DeviceInterfaceData for a device from an InfoSet.
+            </summary>
+            <param name="lpDeviceInfoSet">InfoSet to access</param>
+            <param name="nDeviceInfoData">Not used</param>
+            <param name="gClass">Device class guid</param>
+            <param name="nIndex">Index into InfoSet for device</param>
+            <param name="oInterfaceData">DeviceInterfaceData to fill with data</param>
+            <returns>True if successful, false if not (e.g. when index is passed end of InfoSet)</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.SetupDiGetDeviceInterfaceDetail(System.IntPtr,UsbLibrary.Win32Usb.DeviceInterfaceData@,System.IntPtr,System.UInt32,System.UInt32@,System.IntPtr)">
+            <summary>
+            SetupDiGetDeviceInterfaceDetail
+            Gets the interface detail from a DeviceInterfaceData. This is pretty much the device path.
+            You call this twice, once to get the size of the struct you need to send (nDeviceInterfaceDetailDataSize=0)
+            and once again when you've allocated the required space.
+            </summary>
+            <param name="lpDeviceInfoSet">InfoSet to access</param>
+            <param name="oInterfaceData">DeviceInterfaceData to use</param>
+            <param name="lpDeviceInterfaceDetailData">DeviceInterfaceDetailData to fill with data</param>
+            <param name="nDeviceInterfaceDetailDataSize">The size of the above</param>
+            <param name="nRequiredSize">The required size of the above when above is set as zero</param>
+            <param name="lpDeviceInfoData">Not used</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.SetupDiGetDeviceInterfaceDetail(System.IntPtr,UsbLibrary.Win32Usb.DeviceInterfaceData@,UsbLibrary.Win32Usb.DeviceInterfaceDetailData@,System.UInt32,System.UInt32@,System.IntPtr)">
+            <summary>
+            SetupDiGetDeviceInterfaceDetail
+            Gets the interface detail from a DeviceInterfaceData. This is pretty much the device path.
+            You call this twice, once to get the size of the struct you need to send (nDeviceInterfaceDetailDataSize=0)
+            and once again when you've allocated the required space.
+            </summary>
+            <param name="lpDeviceInfoSet">InfoSet to access</param>
+            <param name="oInterfaceData">DeviceInterfaceData to use</param>
+            <param name="oDetailData">DeviceInterfaceDetailData to fill with data</param>
+            <param name="nDeviceInterfaceDetailDataSize">The size of the above</param>
+            <param name="nRequiredSize">The required size of the above when above is set as zero</param>
+            <param name="lpDeviceInfoData">Not used</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.RegisterDeviceNotification(System.IntPtr,UsbLibrary.Win32Usb.DeviceBroadcastInterface,System.UInt32)">
+            <summary>
+            Registers a window for device insert/remove messages
+            </summary>
+            <param name="hwnd">Handle to the window that will receive the messages</param>
+            <param name="oInterface">DeviceBroadcastInterrface structure</param>
+            <param name="nFlags">set to DEVICE_NOTIFY_WINDOW_HANDLE</param>
+            <returns>A handle used when unregistering</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.UnregisterDeviceNotification(System.IntPtr)">
+            <summary>
+            Unregister from above.
+            </summary>
+            <param name="hHandle">Handle returned in call to RegisterDeviceNotification</param>
+            <returns>True if success</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.HidD_GetPreparsedData(System.IntPtr,System.IntPtr@)">
+            <summary>
+            Gets details from an open device. Reserves a block of memory which must be freed.
+            </summary>
+            <param name="hFile">Device file handle</param>
+            <param name="lpData">Reference to the preparsed data block</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.HidD_FreePreparsedData(System.IntPtr@)">
+            <summary>
+            Frees the memory block reserved above.
+            </summary>
+            <param name="pData">Reference to preparsed data returned in call to GetPreparsedData</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.HidP_GetCaps(System.IntPtr,UsbLibrary.Win32Usb.HidCaps@)">
+            <summary>
+            Gets a device's capabilities from the preparsed data.
+            </summary>
+            <param name="lpData">Preparsed data reference</param>
+            <param name="oCaps">HidCaps structure to receive the capabilities</param>
+            <returns>True if successful</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.CreateFile(System.String,System.UInt32,System.UInt32,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)">
+            <summary>
+            Creates/opens a file, serial port, USB device... etc
+            </summary>
+            <param name="strName">Path to object to open</param>
+            <param name="nAccess">Access mode. e.g. Read, write</param>
+            <param name="nShareMode">Sharing mode</param>
+            <param name="lpSecurity">Security details (can be null)</param>
+            <param name="nCreationFlags">Specifies if the file is created or opened</param>
+            <param name="nAttributes">Any extra attributes? e.g. open overlapped</param>
+            <param name="lpTemplate">Not used</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.CloseHandle(System.IntPtr)">
+            <summary>
+            Closes a window handle. File handles, event handles, mutex handles... etc
+            </summary>
+            <param name="hFile">Handle to close</param>
+            <returns>True if successful.</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.RegisterForUsbEvents(System.IntPtr,System.Guid)">
+            <summary>
+            Registers a window to receive windows messages when a device is inserted/removed. Need to call this
+            from a form when its handle has been created, not in the form constructor. Use form's OnHandleCreated override.
+            </summary>
+            <param name="hWnd">Handle to window that will receive messages</param>
+            <param name="gClass">Class of devices to get messages for</param>
+            <returns>A handle used when unregistering</returns>
+        </member>
+        <member name="M:UsbLibrary.Win32Usb.UnregisterForUsbEvents(System.IntPtr)">
+            <summary>
+            Unregisters notifications. Can be used in form dispose
+            </summary>
+            <param name="hHandle">Handle returned from RegisterForUSBEvents</param>
+            <returns>True if successful</returns>
+        </member>
+        <member name="P:UsbLibrary.Win32Usb.HIDGuid">
+            <summary>
+            Helper to get the HID guid.
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Win32Usb.Overlapped">
+            <summary>
+            An overlapped structure used for overlapped IO operations. The structure is
+            only used by the OS to keep state on pending operations. You don't need to fill anything in if you
+            unless you want a Windows event to fire when the operation is complete.
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Win32Usb.DeviceInterfaceData">
+            <summary>
+            Provides details about a single USB device
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Win32Usb.HidCaps">
+            <summary>
+            Provides the capabilities of a HID device
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Win32Usb.DeviceInterfaceDetailData">
+            <summary>
+            Access to the path for a device
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Win32Usb.DeviceBroadcastInterface">
+            <summary>
+            Used when registering a window to receive messages about devices added or removed from the system.
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.OutputReport">
+            <summary>
+            Defines a base class for output reports. To use output reports, just put the bytes into the raw buffer.
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.Report">
+            <summary>
+            Base class for report types. Simply wraps a byte buffer.
+            </summary>
+        </member>
+        <member name="F:UsbLibrary.Report.m_arrBuffer">
+            <summary>Buffer for raw report bytes</summary>
+        </member>
+        <member name="F:UsbLibrary.Report.m_nLength">
+            <summary>Length of the report</summary>
+        </member>
+        <member name="M:UsbLibrary.Report.#ctor(UsbLibrary.HIDDevice)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="oDev">Constructing device</param>
+        </member>
+        <member name="M:UsbLibrary.Report.SetBuffer(System.Byte[])">
+            <summary>
+            Sets the raw byte array.
+            </summary>
+            <param name="arrBytes">Raw report bytes</param>
+        </member>
+        <member name="P:UsbLibrary.Report.Buffer">
+            <summary>
+            Accessor for the raw byte buffer
+            </summary>
+        </member>
+        <member name="P:UsbLibrary.Report.BufferLength">
+            <summary>
+            Accessor for the buffer length
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.OutputReport.#ctor(UsbLibrary.HIDDevice)">
+            <summary>
+            Construction. Setup the buffer with the correct output report length dictated by the device
+            </summary>
+            <param name="oDev">Creating device</param>
+        </member>
+        <member name="T:UsbLibrary.HIDDevice">
+            <summary>
+            Abstract HID device : Derive your new device controller class from this
+            </summary>
+        </member>
+        <member name="F:UsbLibrary.HIDDevice.m_oFile">
+            <summary>Filestream we can use to read/write from</summary>
+        </member>
+        <member name="F:UsbLibrary.HIDDevice.m_nInputReportLength">
+            <summary>Length of input report : device gives us this</summary>
+        </member>
+        <member name="F:UsbLibrary.HIDDevice.m_nOutputReportLength">
+            <summary>Length if output report : device gives us this</summary>
+        </member>
+        <member name="F:UsbLibrary.HIDDevice.m_hHandle">
+            <summary>Handle to the device</summary>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.Dispose">
+            <summary>
+            Dispose method
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.Dispose(System.Boolean)">
+            <summary>
+            Disposer called by both dispose and finalise
+            </summary>
+            <param name="bDisposing">True if disposing</param>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.Initialise(System.String)">
+            <summary>
+            Initialises the device
+            </summary>
+            <param name="strPath">Path to the device</param>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.BeginAsyncRead">
+            <summary>
+            Kicks off an asynchronous read which completes when data is read or when the device
+            is disconnected. Uses a callback.
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.ReadCompleted(System.IAsyncResult)">
+            <summary>
+            Callback for above. Care with this as it will be called on the background thread from the async read
+            </summary>
+            <param name="iResult">Async result parameter</param>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.Write(UsbLibrary.OutputReport)">
+            <summary>
+            Write an output report to the device.
+            </summary>
+            <param name="oOutRep">Output report to write</param>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.HandleDataReceived(UsbLibrary.InputReport)">
+            <summary>
+            virtual handler for any action to be taken when data is received. Override to use.
+            </summary>
+            <param name="oInRep">The input report that was received</param>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.HandleDeviceRemoved">
+            <summary>
+            Virtual handler for any action to be taken when a device is removed. Override to use.
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.GetDevicePath(System.IntPtr,UsbLibrary.Win32Usb.DeviceInterfaceData@)">
+            <summary>
+            Helper method to return the device path given a DeviceInterfaceData structure and an InfoSet handle.
+            Used in 'FindDevice' so check that method out to see how to get an InfoSet handle and a DeviceInterfaceData.
+            </summary>
+            <param name="hInfoSet">Handle to the InfoSet</param>
+            <param name="oInterface">DeviceInterfaceData structure</param>
+            <returns>The device path or null if there was some problem</returns>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.FindDevice(System.Int32,System.Int32,System.Type)">
+            <summary>
+            Finds a device given its PID and VID
+            </summary>
+            <param name="nVid">Vendor id for device (VID)</param>
+            <param name="nPid">Product id for device (PID)</param>
+            <param name="oType">Type of device class to create</param>
+            <returns>A new device class of the given type or null</returns>
+        </member>
+        <member name="M:UsbLibrary.HIDDevice.CreateInputReport">
+            <summary>
+            Virtual method to create an input report for this device. Override to use.
+            </summary>
+            <returns>A shiny new input report</returns>
+        </member>
+        <member name="E:UsbLibrary.HIDDevice.OnDeviceRemoved">
+            <summary>
+            Event handler called when device has been removed
+            </summary>
+        </member>
+        <member name="P:UsbLibrary.HIDDevice.OutputReportLength">
+            <summary>
+            Accessor for output report length
+            </summary>
+        </member>
+        <member name="P:UsbLibrary.HIDDevice.InputReportLength">
+            <summary>
+            Accessor for input report length
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.InputReport">
+            <summary>
+            Defines a base class for input reports. To use input reports, use the SetData method and override the 
+            ProcessData method.
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.InputReport.#ctor(UsbLibrary.HIDDevice)">
+            <summary>
+            Construction. Do nothing
+            </summary>
+            <param name="oDev">Creating device</param>
+        </member>
+        <member name="M:UsbLibrary.InputReport.SetData(System.Byte[])">
+            <summary>
+            Call this to set the buffer given a raw input report. Calls an overridable method to
+            should automatically parse the bytes into meaningul structures.
+            </summary>
+            <param name="arrData">Raw input report.</param>
+        </member>
+        <member name="M:UsbLibrary.InputReport.ProcessData">
+            <summary>
+            Override this to process the input report into something useful
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.HIDDeviceException">
+            <summary>
+            Generic HID device exception
+            </summary>
+        </member>
+        <member name="T:UsbLibrary.UsbHidPort">
+            <summary>
+            This class provides an usb component. This can be placed ont to your form.
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.RegisterHandle(System.IntPtr)">
+             <summary>
+             Registers this application, so it will be notified for usb events.  
+             </summary>
+             <param name="Handle">a IntPtr, that is a handle to the application.</param>
+             <example> This sample shows how to implement this method in your form.
+             <code> 
+            protected override void OnHandleCreated(EventArgs e)
+            {
+                base.OnHandleCreated(e);
+                usb.RegisterHandle(Handle);
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.UnregisterHandle">
+            <summary>
+            Unregisters this application, so it won't be notified for usb events.  
+            </summary>
+            <returns>Returns if it wass succesfull to unregister.</returns>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.ParseMessages(System.Windows.Forms.Message@)">
+             <summary>
+             This method will filter the messages that are passed for usb device change messages only. 
+             And parse them and take the appropriate action 
+             </summary>
+             <param name="m">a ref to Messages, The messages that are thrown by windows to the application.</param>
+             <example> This sample shows how to implement this method in your form.
+             <code> 
+            protected override void WndProc(ref Message m)
+            {
+                usb.ParseMessages(ref m);
+                base.WndProc(ref m);	    // pass message on to base form
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.CheckDevicePresent">
+            <summary>
+            Checks the devices that are present at the moment and checks if one of those
+            is the device you defined by filling in the product id and vendor id.
+            </summary>
+        </member>
+        <member name="F:UsbLibrary.UsbHidPort.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UsbLibrary.UsbHidPort.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnSpecifiedDeviceArrived">
+            <summary>
+            This event will be triggered when the device you specified is pluged into your usb port on
+            the computer. And it is completly enumerated by windows and ready for use.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnSpecifiedDeviceRemoved">
+            <summary>
+            This event will be triggered when the device you specified is removed from your computer.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnDeviceArrived">
+            <summary>
+            This event will be triggered when a device is pluged into your usb port on
+            the computer. And it is completly enumerated by windows and ready for use.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnDeviceRemoved">
+            <summary>
+            This event will be triggered when a device is removed from your computer.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnDataRecieved">
+            <summary>
+            This event will be triggered when data is recieved from the device specified by you.
+            </summary>
+        </member>
+        <member name="E:UsbLibrary.UsbHidPort.OnDataSend">
+            <summary>
+            This event will be triggered when data is send to the device. 
+            It will only occure when this action wass succesfull.
+            </summary>
+        </member>
+    </members>
+</doc>

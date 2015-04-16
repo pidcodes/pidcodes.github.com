@@ -1,0 +1,11 @@
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\UsbScope.Properties.Resources.resources
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\UsbScope.usbscope.resources
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\UsbScope.csproj.GenerateResource.Cache
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\bin\Debug\UsbADC.exe
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\bin\Debug\UsbADC.pdb
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\bin\Debug\UsbLibrary.dll
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\bin\Debug\UsbLibrary.pdb
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\bin\Debug\UsbLibrary.xml
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\UsbADC.exe
+C:\Documents and Settings\Jacques\Mes documents\Visual Studio 2005\Projects\usb-scope\UsbApp\obj\Debug\UsbADC.pdb

@@ -1,5 +1,5 @@
 ---
 layout: org
-title: Проект
+title: USBscope
 ---
-Краткое описание проекта и его назначения.
+USB oscilloscope made of ATtiny85 MCU

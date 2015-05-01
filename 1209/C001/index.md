@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Alpha01
+title: Alpha
 owner: Cynteract
 license: LGPLv3
 site: https://github.com/xuio/Cynteract

@@ -2,4 +2,4 @@
 layout: org
 title: Cynteract
 ---
-We are a geoup of four developers, developing Cynteract, an interactive virtual-reality glove.
+We are a group of four developers, developing Cynteract, an interactive virtual-reality glove.

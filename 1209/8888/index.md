@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Blinkinlabs POV Pendant
+title: POV Pendant
 owner: Blinkinlabs
 license: APL
 site: http://www.blinkypendant.com

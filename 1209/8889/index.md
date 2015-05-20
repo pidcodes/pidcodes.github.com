@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Blinkinlabs POV Pendant (bootloader)
+title: POV Pendant (bootloader)
 owner: Blinkinlabs
 license: APL
 site: http://www.blinkypendant.com

@@ -1,5 +1,5 @@
 ---
-layout: BAD1
+layout: pid
 title: CommLinkUSB
 owner: GPoteau
 license: Creative Commons Attribution-ShareAlike 4.0 International License

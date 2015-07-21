@@ -2,4 +2,4 @@
 layout: org
 title: Brian Todoroff
 ---
-Working on a USB device using Cypress' $10 PSoC5 LP prototyping kit
+Working on a USB device using Cypress PSoC5 LP

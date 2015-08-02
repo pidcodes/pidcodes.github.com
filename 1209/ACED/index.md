@@ -3,7 +3,7 @@ layout: pid
 title: Ja Rule Device
 owner: openlightingproject
 license: LGPL
-site: https://www.openlighting.org/
+site: https://docs.openlighting.org/ja-rule/doc/latest/
 source: https://github.com/OpenLightingProject/ja-rule
 ---
 

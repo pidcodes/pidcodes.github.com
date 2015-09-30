@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Pinscape Controller
+title: Controller
 owner: Pinscape
 license: MIT
 site: https://developer.mbed.org/users/mjr/code/Pinscape_Controller/

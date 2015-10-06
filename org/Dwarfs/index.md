@@ -1,5 +1,5 @@
 ---
 layout: org
-title: Dwarfs Inc.
+title: Dwarfs
 ---
 Group of several developers.

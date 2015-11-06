@@ -1,8 +1,8 @@
 ---
 layout: pid
 title: SemarmeHID
-owner: semarme.com
+owner: semarme
 license: GPL V2.0
-site: http://semarme.com/
+site: http://github.com/carakatama/SemarmeHID/
 source: http://github.com/carakatama/SemarmeHID/
 ---

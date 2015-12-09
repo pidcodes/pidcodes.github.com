@@ -10,6 +10,8 @@ If your project does not meet the following criteria, your pull request **will**
  - Containing schematics or source code for a device with a USB interface...
  - Licensed under a recognized open source or open source hardware license. Your source code repository must contain a LICENSE file attesting to this fact.
 
+If your project involves both hardware and software, both need to be licensed under recognised OSS and OSHW licenses. If your project involves only one or the other, we may ask for further justification as to why you need a PID associated with your software project / development board instead of allowing end-users to request their own.
+
 If your project doesn't yet meet these requirements, please hold off requesting a PID until it does. Don't worry, we're not likely to run out of PIDs soon.
 
 ## 1. Fork us
@@ -43,6 +45,8 @@ site: http://www.mysite.com/
 source: http://github.com/myorg/mydevice/
 ---
 ```
+
+The `title` field is what will appear on the pid.codes directory. Titles will be prefixed with the name of your organisation, so don't include that in the title. Try and pick a name you'd want to see in Device Manager or dmesg.
 
 For the `owner` field, specify the name of the directory you created for your organisation in step 2. For license, you must name a valid open-source license; pull requests that do not have this field filled out correctly will be rejected.
 

@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: dRonin support for Lumenier Lux flight controller
+title: Flight controller-Lumenier Lux
 owner: dronin
 license: GPLv3
 site: http://github.com/d-ronin/dronin/

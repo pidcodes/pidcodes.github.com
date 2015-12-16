@@ -2,7 +2,7 @@
 layout: pid
 title: dap42 debug access probe
 owner: devanlai
-lic3ense: LGPLv3
+license: LGPLv3
 site: https://github.com/devanlai/dap42
 source: https://github.com/devanlai/dap42
 ---

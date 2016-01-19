@@ -50,7 +50,7 @@ The `title` field is what will appear on the pid.codes directory. Titles will be
 
 For the `owner` field, specify the name of the directory you created for your organisation in step 2. For license, you must name a valid open-source license; pull requests that do not have this field filled out correctly will be rejected.
 
-The `site` field may point to any relevant URL about your project. The `source` field must point to a URL at which users can find the source code for your device; this includes both PCB designs and firmware. This does not have to be on GitHub.
+The `site` field should point to the most relevant URL about your project. The `source` field must point to a URL at which users can find the source code for your device; this includes both PCB designs and firmware. This does not have to be on GitHub. The two URLs can be the same.
 
 Under the second triple-dashed line, you may write a short description of your project, if you wish; this is not mandatory.
 

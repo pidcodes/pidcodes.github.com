@@ -1,6 +1,6 @@
 ---
 layout: org
-title: MickMad - Michele Perla
+title: MickMad
 ---
 Computer Engineering Undergraduate @ "Sapienza" University of Rome in Dec. 2013 
 Service Desk Operator @ Capgemini Italia SPA in Rome, Italy 

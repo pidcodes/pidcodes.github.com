@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: HACK - HackAday Cortex Kit - Sketch
+title: HACK Sketch
 owner: MickMad
 license: CERN OHL 1.2, LGPL 2.1
 site: https://hackaday.io/project/8007-hack

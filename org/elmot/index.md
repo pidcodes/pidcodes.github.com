@@ -1,5 +1,6 @@
 ---
 layout: org
-title: Elijah Motornyy(http://elmot.xyz)
+title: Elijah Motornyy
 ---
  Program writer, DIY electronics enthusiast.
+ http://elmot.xyz

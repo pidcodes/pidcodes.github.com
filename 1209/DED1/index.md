@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Quark One Serial
+title: Quark One
 owner: ManCaveMade
 license: MIT
 site: https://github.com/ManCaveMade

@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: Arduino Taiwan
-owner: ArduinoTaiwan
+title: Taiwanduino
+owner: Openlab.Taipei
 license: GNU
-site: https://github.com/will127534/Arduino_Taiwan/
-source: https://github.com/will127534/Arduino_Taiwan/
+site: https://github.com/will127534/Taiwanduino/
+source: https://github.com/will127534/Taiwanduino/
 ---

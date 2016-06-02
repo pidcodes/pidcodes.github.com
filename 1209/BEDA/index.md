@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: TOP SECRET
+title: Bootmaster
 owner: SeregaSPb
 license: GPLv3
 site: http://www.SeregaSPb.ru/
-source: http://github.com/SeregaSPb/TopSecretUSB
+source: https://github.com/SeregaSPb/Bootmaster
 ---

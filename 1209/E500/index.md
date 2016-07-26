@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Helios Laser DAC
-owner: MikkelsenElectronics
+owner: GitleMikkelsen
 license: Creative Commons Attribution-NonCommercial 4.0 International
 site: TBD
 source: https://github.com/Grix/helios_dac

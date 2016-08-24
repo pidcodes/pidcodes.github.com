@@ -1,7 +1,7 @@
 ---
 layout: pid
-title: Nano Zweo
-owner: Misfite
+title: Nano Zero  
+owner: misfittech
 license: CC BY-SA 4.0 (hardware) / GPLv3 (firmware, software)
 site: https://github.com/Misfittech/nano_stepper/blob/master/hardware/Nano%20Zero%20R1.0.pdf
 source: https://github.com/Misfittech/ArduinoCore-samd

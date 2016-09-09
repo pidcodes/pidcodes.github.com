@@ -7,7 +7,7 @@
   {% assign urlparts = org.url|split:"/" %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
-      <td>{{ pids | where:"owner",urlparts[1] | size }} - urlparts[1]</td>
+      <td>{{ pids | where:"owner",{{urlparts[1]}} | size }} - {{urlparts[1]}}</td>
     </tr>
   {% endfor %}
 </table>

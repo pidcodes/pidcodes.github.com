@@ -1,0 +1,11 @@
+{% include data.html %}
+<table>
+  <thead>
+    <tr><th>Organisation</th></tr>
+  </thead>
+  {% for org in orgs %}
+    <tr>
+      <th><a href="{{org.url}}">{{org.title}}</a></th>
+    </tr>
+  {% endfor %}
+</table>

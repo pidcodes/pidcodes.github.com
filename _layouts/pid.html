@@ -6,7 +6,7 @@
 {% assign pid = urlparts[2] %}
 <!DOCTYPE html>
 <html>
-{% capture title %}{{page.vid}}/{{page.pid|upcase}} {{page.title}}{% endcapture %}
+{% capture title %}{{vid}}/{{pid|upcase}} {{page.title}}{% endcapture %}
 {% include head.html title=title %}
 <body class="{% if site.animated %}animated fade-in-down{% endif %}">
   <div class="site-wrap">

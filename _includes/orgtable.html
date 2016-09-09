@@ -3,10 +3,10 @@
   <thead>
     <tr><th>Organisation</th><th>Number of PIDs</th></tr>
   </thead>
-  {% assign sortedorgs = {{orgs|sort:"title"}} %}
+  {% assign sortedorgs = {{orgs|sort_natural:"title"}} %}
   {% for org in sortedorgs %}
-  {% assign urlparts = org.url|split:"/" %}
-  {% assign owner = urlparts[2] %}
+    {% assign urlparts = org.url|split:"/" %}
+    {% assign owner = urlparts[2] %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
       <td>{{ pids | where:"owner",owner | size }} - {{owner}}</td>

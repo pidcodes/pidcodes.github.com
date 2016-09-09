@@ -3,10 +3,11 @@
   <thead>
     <tr><th>Organisation</th><th>Number of PIDs</th></tr>
   </thead>
-  {% for org in {{orgs|sort:"title"}} %}
+  {% for org in {orgs|sort:"title"} %}
+  {% assign urlparts = org.url|split:"/" %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
-      <td>{{ pids | where:"owner",org.title | size }}</td>
+      <td>{{ pids | where:"owner",urlparts[1] | size }}</td>
     </tr>
   {% endfor %}
 </table>

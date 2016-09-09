@@ -1,11 +1,12 @@
 {% include data.html %}
 <table>
   <thead>
-    <tr><th>Organisation</th></tr>
+    <tr><th>Organisation</th><th>Number of PIDs</th></tr>
   </thead>
   {% for org in orgs %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
+      <tr>{{ pids | where:"owner",org.title | size }}</tr>
     </tr>
   {% endfor %}
 </table>

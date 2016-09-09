@@ -3,10 +3,10 @@
   <thead>
     <tr><th>Organisation</th><th>Number of PIDs</th></tr>
   </thead>
-  {% for org in orgs %}
+  {% for org in {{orgs|sort:"title"}} %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
-      <tr>{{ pids | where:"owner",org.title | size }}</tr>
+      <td>{{ pids | where:"owner",org.title | size }}</td>
     </tr>
   {% endfor %}
 </table>

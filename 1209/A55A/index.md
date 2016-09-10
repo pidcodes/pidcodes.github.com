@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: USB: The Universal Serial Bus: ATTINY2313
+title: "USB: The Universal Serial Bus: ATTINY2313"
 owner: fysnet
 license: LGPLv2
 site: http://www.fysnet.net/attiny2313.htm

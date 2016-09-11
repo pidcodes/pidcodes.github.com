@@ -9,7 +9,7 @@
     {% assign owner = urlparts[2] %}
     <tr>
       <th><a href="{{org.url}}">{{org.title}}</a></th>
-      <td>{{ pids | where:"owner",owner | size }} - {{owner}}</td>
+      <td>{{ pids | where:"owner",owner | size }}</td>
     </tr>
   {% endfor %}
 </table>

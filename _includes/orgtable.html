@@ -3,7 +3,7 @@
   <thead>
     <tr><th>Organisation</th><th>Number of PIDs</th></tr>
   </thead>
-  {% assign sortedorgs = {{site.pages|where:"layout","org"|sort_natural:"title"}} %}
+  {% assign sortedorgs = {{site.pages|where:"layout","org"|sort:"title"}} %}
   {% for org in sortedorgs %}
     {% assign urlparts = org.url|split:"/" %}
     {% assign owner = urlparts[2] %}

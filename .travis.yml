@@ -2,6 +2,9 @@ sudo: false # route your build to the container-based infrastructure for a faste
 
 language: ruby
 
+# Cache Ruby bundles
+cache: bundler
+
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: "bash -ex .travis-ci.sh"

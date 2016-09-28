@@ -1,0 +1,15 @@
+{% include data.html %}
+<table>
+  <thead>
+    <tr><th>Organisation</th><th>Number of PIDs</th></tr>
+  </thead>
+  {% assign sortedorgs = {{site.pages|where:"layout","org"|sort:"title"}} %}
+  {% for org in sortedorgs %}
+    {% assign urlparts = org.url|split:"/" %}
+    {% assign owner = urlparts[2] %}
+    <tr>
+      <th><a href="{{org.url}}">{{org.title}}</a></th>
+      <td>{{ pids | where:"owner",owner | size }}</td>
+    </tr>
+  {% endfor %}
+</table>

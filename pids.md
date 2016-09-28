@@ -7,6 +7,6 @@ permalink: /pids/
 {% for vid in vids %}
   {% assign urlparts = vid.url|split:"/" %}
   {% assign vidno = urlparts[1] %}
-  <h3><a href="{{vid.url}}">0x{{urlparts[1]}}</a></h3>
+  <h3><a href="{{vid.url}}">0x{{vidno}}</a></h3>
   {%include pidtable.html vid=vidno %}
 {% endfor %}

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # halt script on error
 
-HTMLPROOFER_OPTIONS="./_site --check-html --report-invalid-tags --report-missing-names --log-level=:debug"
+HTMLPROOFER_OPTIONS="./_site --check-html --report-missing-names --log-level=:debug"
 
 if [[ $TASK = 'htmlproofer' ]]; then
   bundle exec jekyll build

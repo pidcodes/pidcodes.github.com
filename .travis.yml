@@ -18,4 +18,4 @@ matrix:
     - env: TASK='htmlproofer'
     - env: TASK='htmlproofer-external'
   allow_failures:
-    - env: TASK='htmlproofer'
+    - env: TASK='htmlproofer-external'

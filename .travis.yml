@@ -1,6 +1,6 @@
+sudo: false # route your build to the container-based infrastructure for a faster build
+
 language: ruby
-rvm:
-- 2.2.5
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
@@ -10,12 +10,13 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
-sudo: false # route your build to the container-based infrastructure for a faster build
-
 matrix:
   fast_finish: true
   include:
-    - env: TASK='htmlproofer'
-    - env: TASK='htmlproofer-external'
+    - rvm: 2.2.5
+      env: TASK='htmlproofer'
+    - rvm: 2.2.5
+      env: TASK='htmlproofer-external'
   allow_failures:
-    - env: TASK='htmlproofer-external'
+    - rvm: 2.2.5
+      env: TASK='htmlproofer-external'

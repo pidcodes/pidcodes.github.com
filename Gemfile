@@ -1,6 +1,13 @@
-source "https://rubygems.org"
+require 'json'
+require 'open-uri'
 
-gem "jekyll"
-gem "github-pages"
-gem "redcarpet"
+source 'https://rubygems.org'
+
+versions = open('https://pages.github.com/versions.json') do |source|
+  JSON.parse(source.read)
+end
+
+# Github Pages environment
+gem 'github-pages', versions['github-pages']
+
 gem "html-proofer"

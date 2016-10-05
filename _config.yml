@@ -44,6 +44,10 @@ share_reddit: false
 share_stumbleupon: false
 
 # Build settings
+exclude: [vendor]
+gems:
+ - jekyll-paginate
+ - redcarpet
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']

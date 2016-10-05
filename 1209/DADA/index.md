@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: OWL
-owner: rebeltechnology 
+owner: rebeltechnology
 license: GPL
 site: http://hoxtonowl.com
 source: https://github.com/pingdynasty/OwlWare

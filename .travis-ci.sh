@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # halt script on error
 
-HTMLPROOFER_OPTIONS="./_site --check-html --report-missing-names --log-level=:debug"
+HTMLPROOFER_OPTIONS="./_site --check-html --check-opengraph --report-missing-names --log-level=:debug"
 
 bundle exec jekyll doctor
 bundle exec jekyll build

@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: chipKIT Lenny
-owner: Majenko Technologies
+owner: MajenkoTechnologies
 license: BSD
 site: http://majenko.co.uk/lenny
 source: https://github.com/majenkotech/Lenny

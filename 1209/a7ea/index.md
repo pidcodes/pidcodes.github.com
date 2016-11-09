@@ -6,4 +6,4 @@ license: CC0 [hw] + MIT [sw]
 site: http://area3001.com/knixx
 source: https://github.com/area3001/knixx
 ---
-Knixx houses all our research and trials into open source KNX-compatible modules.
+Knixx offers a range of open source KNX-compatible products.

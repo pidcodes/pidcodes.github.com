@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Knixx SW04
-owner: Area3001
+owner: area3001
 license: CC0 [hw] + MIT [sw]
 site: http://area3001.com/knixx
 source: https://github.com/area3001/knixx

@@ -6,7 +6,7 @@
 {% assign pid = urlparts[2] %}
 <!DOCTYPE html>
 <html>
-{% capture title %}{{page.vid}}/{{page.pid|upcase}} {{page.title}}{% endcapture %}
+{% capture title %}{{vid}}/{{pid|upcase}} {{page.title}}{% endcapture %}
 {% include head.html title=title %}
 <body class="{% if site.animated %}animated fade-in-down{% endif %}">
   <div class="site-wrap">
@@ -17,22 +17,22 @@
         <div class="post">
           <header class="post-header">
             <h1 class="h2">
-            	<a href="/{{vid}}/">{{vid}}</a> /
+            	<a href="/{{vid}}/">{{vid|upcase}}</a> /
               {{pid|upcase}} -
-              {{page.title}}
+              {{page.title|xml_escape}}
             </h1>
           </header>
           <article class="post-content">
             <table>
-              <tr><th>VID</th><td>0x{{vid}}</td></tr>
+              <tr><th>VID</th><td>0x{{vid|upcase}}</td></tr>
               <tr><th>PID</th><td>0x{{pid|upcase}}</td></tr>
-              <tr><th>Owner</th><td><a href="{{org.url}}">{{org.title}}</a></td></tr>
-              <tr><th>License</th><td>{{page.license}}</td></tr>
+              <tr><th>Owner</th><td><a href="{{org.url}}">{{org.title|xml_escape}}</a></td></tr>
+              <tr><th>License</th><td>{{page.license|xml_escape}}</td></tr>
               {% if page.site %}
-                <tr><th>Site</th><td><a href="{{page.site}}">{{page.site}}</a></td></tr>
+                <tr><th>Site</th><td><a href="{{page.site}}">{{page.site|xml_escape}}</a></td></tr>
               {% endif %}
               {% if page.source %}
-                <tr><th>Source</th><td><a href="{{page.source}}">{{page.source}}</a></td></tr>
+                <tr><th>Source</th><td><a href="{{page.source}}">{{page.source|xml_escape}}</a></td></tr>
               {% endif %}
             </table>
           {{ content }}

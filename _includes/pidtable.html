@@ -10,7 +10,7 @@
       {% assign org = orgs|where:"url",orgpath|first %}
       <tr>
         <th><a href="{{pid.url}}">{{urlparts[2]|upcase}}</a></th>
-        <td>{{org.title}} {{pid.title}}</td>
+        <td>{{org.title|xml_escape}} {{pid.title|xml_escape}}</td>
       </tr>
     {% endif %}
   {% endfor %}

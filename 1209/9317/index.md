@@ -2,7 +2,7 @@
 layout: pid
 title: Palawan-Tx
 owner: Kosagi
-license: CC4.0-BY-SA (hardware) / MUT (firmware)
+license: CC4.0-BY-SA (hardware) / MIT (firmware)
 site: https://github.com/xobs/joyboot
 source: https://github.com/xobs/palawan-hw
 ---

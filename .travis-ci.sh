@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # halt script on error
 
-HTMLPROOFER_OPTIONS="./_site --internal-domains=pid.codes --check-html --check-opengraph --report-missing-names --log-level=:debug --url-ignore '/www.andreas.org/,/www.kbles.ru/,/instantinfrastructure.org/'"
+HTMLPROOFER_OPTIONS="./_site --internal-domains=pid.codes --check-html --check-opengraph --report-missing-names --log-level=:debug --url-ignore /www.andreas.org/,/www.kbles.ru/,/instantinfrastructure.org/"
 
 bundle exec jekyll doctor
 bundle exec jekyll build

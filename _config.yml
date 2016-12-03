@@ -50,7 +50,7 @@ gems:
  - redcarpet
 markdown:     redcarpet
 redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
+  extensions: ['no_intra_emphasis', 'smart', 'tables', 'autolink', 'strikethrough', 'with_toc_data']
 permalink:    pretty
 paginate:     3
 sass:

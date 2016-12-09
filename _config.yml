@@ -47,10 +47,7 @@ share_stumbleupon: false
 exclude: [vendor]
 gems:
  - jekyll-paginate
- - redcarpet
-markdown:     redcarpet
-redcarpet:
-  extensions: ['no_intra_emphasis', 'smart', 'tables', 'autolink', 'strikethrough', 'with_toc_data']
+markdown:     kramdown
 permalink:    pretty
 paginate:     3
 sass:

@@ -33,6 +33,6 @@ that can be used to setup computers and other pi's from scratch via:
 
 We'll jump from there to other platforms, and I'd like for the base to be github.com/ii
 
-Initial iipi Demo: https://www.youtube.com/watch?v=5JvPI2zODuY
+Initial iipi Demo: <https://www.youtube.com/watch?v=5JvPI2zODuY>
 
 iiphone will hopefully be sometime this year

@@ -1,7 +1,7 @@
 ---
 layout: org
 title: ii
-site: http://instantinfrastructure.org
+site: http://instantinfrastructure.com
 ---
 
 ```

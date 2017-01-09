@@ -1,6 +1,7 @@
 ---
 layout: org
 title: Open Lighting Project
+site: https://www.openlighting.org/
 ---
 The [OpenLightingProject](https://www.openlighting.org/) builds open source
 hardware and software for the entertainment lighting industry. Protocol

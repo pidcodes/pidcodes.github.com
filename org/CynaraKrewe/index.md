@@ -1,6 +1,7 @@
 ---
 layout: org
 title: CynaraKrewe
+site: https://github.com/CynaraKrewe
 ---
 CynaraKrewe is a mixed group of software and electronics engineers who have teamed up to create Cynara.
 Members are encouraged to both explore beyond their own discipline(s) and provide guidance to other members were they can. 

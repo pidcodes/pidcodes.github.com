@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: MK::Kbd
-owner: A3A4
+owner: mkbox
 license: GNU GPL v3
 site: http://kbd.projects.mkbox.org
 source: http://github.com/mkbox/MKkbd

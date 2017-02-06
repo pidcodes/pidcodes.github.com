@@ -24,11 +24,12 @@ Create a directory named after your organisation in the `org` directory. Create 
 ---
 layout: org
 title: My organisation
+site: http://www.myorg.org/
 ---
 A short description of my organisation and what it does.
 ```
 
-If it's just you, that's fine too - put your own name and a short blurb about you and what you do.
+If it's just you, that's fine too - put your own name and a short blurb about you and what you do. The site is an optional website for your organisation.
 
 ## 3. Find a VID and PID
 Browse the [list of PIDs](/1209/) for an unused PID number. You may request any number that is not in use, except those reserved as described on the VID page. Note that PIDs on our existing VID, 0x1209, may not start with 0x1xxx - this range is reserved by the original owners of the VID.

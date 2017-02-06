@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Danyboard M0
+title: Danyboard M0 bootloader
 owner: Danyboard
 license: GPL
 site: http://www.danyboard.com/

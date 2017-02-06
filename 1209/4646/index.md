@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: SmartPID SPC1000
+title: SPC1000
 owner: SmartPID
 license: GPL V3
 site: http://www.smartpid.com/

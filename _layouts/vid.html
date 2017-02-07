@@ -1,5 +1,5 @@
 {% include data.html %}
-{% capture org %}{{orgs|where:"orgname",page.owner|first}}{% endcapture %}
+{% assign org = orgs|where:"orgname",page.owner|first %}
 {% assign urlparts = page.url|split:"/" %}
 {% assign vid = urlparts[1] %}
 <!DOCTYPE html>

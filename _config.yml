@@ -48,7 +48,7 @@ exclude: [vendor]
 gems:
  - jekyll-paginate
 liquid:
-  error_mode: strict
+  error_mode: warn
 verbose: false
 markdown:     kramdown
 kramdown:

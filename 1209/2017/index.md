@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Mini SAM
-owner: bschockley
+owner: bwshockley
 license: MIT
 site: https://github.com/bwshockley/Minifigure-SAMD21E
 source: https://github.com/bwshockley/Minifigure-SAMD21E

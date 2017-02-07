@@ -49,7 +49,7 @@ gems:
  - jekyll-paginate
 liquid:
   error_mode: strict
-verbose: false
+verbose: true
 markdown:     kramdown
 kramdown:
   auto_ids: true

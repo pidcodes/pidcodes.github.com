@@ -1,6 +1,6 @@
 ---
 layout: org
-title: LifeToDevice
+title: Life2Device
 site: http://life2device.ru
 ---
 Electronic devices development

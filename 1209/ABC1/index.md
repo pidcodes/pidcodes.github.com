@@ -1,7 +1,8 @@
 ---
-layout: 0xabc1
+layout: pid
 title: Dallas_Brigde
 owner: Tomas Pechacek
-license: NoSpecified yet
+license: Any
 site: sorry
+source: https://github.com/pechyx
 ---

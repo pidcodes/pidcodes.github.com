@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: Dallas_Tomas_Pech
-owner: Tomas Pechacek
+title: Tomas Board
+owner: Dallas_Tomas_Pech
 license: Any
-site: sorry
+site: 
 source: https://github.com/pechyx
 ---
 Board which has bridge function between 4xoneWire ports and USB/RS232/RS485

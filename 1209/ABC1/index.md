@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Tomas Board
+title: Tomas_Board
 owner: Dallas_Tomas_Pech
 license: Any
 site: 

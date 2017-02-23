@@ -2,7 +2,7 @@
 layout: pid
 title: CodeBridge
 owner: Intelectron India
-license: OSHW
+license: CC-BY-ND v3.0
 site: https://www.intelectron.in
 source: https://github.com/sandeepansengupta/Generic/tree/master/CodeBridge/CAD/Eagle
 ---

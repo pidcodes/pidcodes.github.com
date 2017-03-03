@@ -1,6 +1,6 @@
 ---
 layout: org
 title: Tach Radio
-site: http://thewired.doesntexist.org
+site: http://thewireddoesntexist.org
 ---
-Just a fictive organisation to support dummy electronic projects
+Old video game systems hacks organisation.

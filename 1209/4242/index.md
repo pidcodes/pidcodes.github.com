@@ -3,7 +3,7 @@ layout: pid
 title: OCA-V1
 owner: Open-Canalyzer
 license: MIT
-site: http://open-canalyzer.github.io
+site: http://open-canalyzer.github.io/docs
 source: https://github.com/Open-Canalyzer/docs/tree/master/hw
 ---
 "Open-Canalyzer" (OCA) V1 is a Opto-Isolated USB to CAN-bus module. It is a single-chip

@@ -7,5 +7,5 @@ site: http://thewireddoesntexist.org
 source: https://github.com/NilujePerchut/doppelganger_soft
 ---
 Joystick interface to Brook PCB and old video game systems.
-Software part of the project can be found here:
+Hardware part of the project can be found here:
 https://github.com/NilujePerchut/doppelganger_hardware

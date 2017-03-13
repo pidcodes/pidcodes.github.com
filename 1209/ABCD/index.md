@@ -1,8 +1,8 @@
 ---
 layout: pid
 title: The Omzlo USB controller
-owner: omlzo
+owner: Omzlo
 license: MIT
-site: http://omlzo.com/one
+site: http://omzlo.com/one
 source: https://github.com/omzlo/omzlo-usb-interface
 ---

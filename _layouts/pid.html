@@ -1,6 +1,6 @@
 {% include data.html %}
 {% capture orgpath %}/org/{{page.owner}}/{% endcapture %}
-{% assign org = {{orgs|where:"url",orgpath|first}} %}
+{% assign org = orgs|where:"url",orgpath|first %}
 {% assign urlparts = page.url|split:"/" %}
 {% assign vid = urlparts[1] %}
 {% assign pid = urlparts[2] %}

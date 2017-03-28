@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: CodeBridge
+title: Infineo CodeBridge
 owner: intelectron.in
-license: CC-BY-ND v3.0
+license: CC-BY-ND v4.0
 site: https://www.intelectron.in
 source: https://github.com/sandeepansengupta/Generic/tree/master/CodeBridge
 ---
-V-USB based USB 1.1 Complient Open Sourced USB to Serial Converter
+USB Bootloader for Intelectron Infineo

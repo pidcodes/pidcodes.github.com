@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: PrayogEngine
+title: Infineo PrayogEngine
 owner: intelectron.in
-license: CC-BY-ND v3.0
+license: CC-BY-ND v4.0
 site: https://www.intelectron.in
 source: https://github.com/sandeepansengupta/Generic/tree/master/PrayogEngine
 ---
-V-USB based USB 1.1 Compliant Open Source Information Processor
+USB firmware framework for Infineo Open Source Information Processor

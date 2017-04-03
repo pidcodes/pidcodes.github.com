@@ -1,6 +1,6 @@
 ---
 layout: org
-title: Intelectron India
+title: Intelectron
 site: https://www.intelectron.in/
 ---
-Intelectron India is an initiative by a group of graduate engineers with a dream to bring industrial grade products to general audience
+Intelectron India is an initiative by a group of graduate engineers to bring industrial grade products to general audience

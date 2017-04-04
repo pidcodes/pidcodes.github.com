@@ -47,6 +47,9 @@ share_stumbleupon: false
 exclude: [vendor]
 gems:
  - jekyll-paginate
+liquid:
+  error_mode: strict
+verbose: true
 markdown:     kramdown
 kramdown:
   auto_ids: true

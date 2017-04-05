@@ -1,5 +1,5 @@
 ---
 layout: org
-title: Sandeepan
+title: Sandeepan Sengupta
 site: https://github.com/SandeepanSengupta
 ---

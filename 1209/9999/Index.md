@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Infineo
-owner: Sandeepan
+owner: Sandeepan Sengupta
 license: CC-BY-NC-ND 4.0
 site: https://github.com/SandeepanSengupta/
 source: https://github.com/SandeepanSengupta/Infineo/tree/master/module/sources/0.0.1/unit/cores/arduino

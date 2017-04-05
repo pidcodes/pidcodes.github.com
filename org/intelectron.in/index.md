@@ -1,6 +1,5 @@
 ---
 layout: org
-title: Intelectron
-site: https://www.intelectron.in/
+title: Sandeepan
+site: https://www.IObitZ.com/
 ---
-Intelectron India is an initiative by a group of graduate engineers to bring industrial grade products to general audience

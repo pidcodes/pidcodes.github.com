@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: Infineo
-owner: Sandeepan
+title: CodeBridge Infineo
+owner: Sandeepan Sengupta
 license: CC-BY-NC-ND 4.0
 site: https://github.com/SandeepanSengupta/
-source: https://github.com/SandeepanSengupta/Infineo/
+source: https://github.com/SandeepanSengupta/CodeBridge/
 ---
-USB firmware for Infineo, an Arduino derivative open source information processing system
+USB firmware for CodeBridge Infineo, an Arduino derivative open source information processing system

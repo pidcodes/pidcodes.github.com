@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: PrayogEngine
-owner: intelectron.in
-license: CC-BY-ND v3.0
-site: https://www.intelectron.in
-source: https://github.com/sandeepansengupta/Generic/tree/master/PrayogEngine
+title: CodeBridge Infineo
+owner: Sandeepan
+license: CC-BY-NC-ND 4.0
+site: https://github.com/SandeepanSengupta/
+source: https://github.com/SandeepanSengupta/CodeBridge/
 ---
-V-USB based USB 1.1 Compliant Open Source Information Processor
+USB firmware for CodeBridge Infineo, an Arduino derivative open source information processing system

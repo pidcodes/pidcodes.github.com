@@ -1,6 +1,6 @@
 {% include data.html %}
 {% capture orgpath %}/org/{{page.owner}}/{% endcapture %}
-{% assign org = {{orgs|where:"url",orgpath|first}} %}
+{% assign org = orgs|where:"url",orgpath|first %}
 {% assign urlparts = page.url|split:"/" %}
 {% assign vid = urlparts[1] %}
 {% assign pid = urlparts[2] %}
@@ -26,7 +26,7 @@
             <table>
               <tr><th>VID</th><td>0x{{vid|upcase}}</td></tr>
               <tr><th>PID</th><td>0x{{pid|upcase}}</td></tr>
-              <tr><th>Owner</th><td><a href="{{org.url}}">{{org.title|xml_escape}}</a></td></tr>
+              <tr><th>Owner</th><td><a href="{{orgpath}}">{{org.title|xml_escape}}</a></td></tr>
               <tr><th>License</th><td>{{page.license|xml_escape}}</td></tr>
               {% if page.site %}
                 <tr><th>Site</th><td><a href="{{page.site}}">{{page.site|xml_escape}}</a></td></tr>

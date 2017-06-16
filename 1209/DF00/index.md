@@ -2,8 +2,10 @@
 layout: pid
 title: mi:muz:tuch
 owner: TripArts-Music
-license: GPLv2/CC BY 4.0
-site: https://github.com/tadfmac/mi-muz/tree/master/applications/tuch
-source: https://github.com/tadfmac/mi-muz/tree/master/applications/tuch
+license: GPLv2/CC BY 4.0/3-clause BSD license
+site: https://github.com/mimuz/mimuz-tuch
+source: https://github.com/mimuz/mimuz-tuch
 ---
-mi:muz:tuch is a 'Hybrid midi' controller with capacitive touch sensor.
+mi:muz:tuch is a MIDI Controller with flexible touch keys.
+
+

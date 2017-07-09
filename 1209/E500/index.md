@@ -1,0 +1,8 @@
+---
+layout: pid
+title: Helios Laser DAC
+owner: GitleMikkelsen
+license: Creative Commons Attribution-NonCommercial 4.0 International
+source: https://github.com/Grix/helios_dac
+---
+Open source, low cost USB DAC for the ISP-DB25 laser projector protocol.

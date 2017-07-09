@@ -13,9 +13,15 @@
       <div class="measure">
         <div class="post">
           <header class="post-header">
-            <h1 class="h2">{{page.title}}</h1>
+            <h1 class="h2">{{page.title|xml_escape}}</h1>
           </header>
           <article class="post-content">
+            {% if page.site %}
+            <table>
+                <tr><th>Site</th><td><a href="{{page.site}}">{{page.site|xml_escape}}</a></td></tr>
+            </table>
+            {% endif %}
+
             {{ content }}
 
             <h2>Allocated PIDs</h2>
@@ -28,7 +34,7 @@
                   <tr>
                     <th><a href="/{{pidurlparts[1]}}/">{{pidurlparts[1]}}</a></th>
                     <th><a href="{{pid.url}}">{{pidurlparts[2]}}</a></th>
-                    <td>{{page.title}} {{pid.title}}</td>
+                    <td>{{page.title|xml_escape}} {{pid.title|xml_escape}}</td>
                   </tr>
                 {% endfor %}
               </table>

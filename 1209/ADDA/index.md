@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: MicroPython Boards
-owner: micropython
+owner: MicroPython
 license: MIT
 site: https://micropython.org/
 source: https://github.com/micropython/micropython-esp32

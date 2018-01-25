@@ -1,6 +1,6 @@
 ---
 layout: org
-title: ODrive
-site: https://hackaday.io/project/11583-odrive-high-performance-motor-control
+title: ODrive Robotics
+site: https://odriverobotics.com/
 ---
 ODrive is a project to create open source high performance motor controllers.

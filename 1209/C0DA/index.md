@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Monero Firmware
-owner: Monero Hardware
+owner: Monero
 license: CERN
 site: https://getmonero.org/
 source: https://github.com/monero-project/kastelo/

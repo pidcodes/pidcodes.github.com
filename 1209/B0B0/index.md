@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Monero Bootloader
-owner: Monero Hardware
+owner: Monero
 license: CERN
 site: https://getmonero.org/
 source: https://github.com/monero-project/kastelo/

@@ -1,8 +1,8 @@
 ---
 layout: pid
 title: Gate Crystal
-owner: Captain Credible
+owner: CaptainCredible
 license: MIT
-site: gttp://www.captaincredible.com/
+site: http://www.captaincredible.com/
 source: https://github.com/CaptainCredible/GateXtal
 ---

@@ -8,6 +8,5 @@ Our Open Source software is called the Great Cow BASIC suite.  The  Great Cow BA
 We have developed three USB solutions are follows:
 
 1. CDC solution using Great Cow BASIC for the USB stack for PIC18 and AVRs
-2. HID solution using Great Cow BASIC for the USB stack for PIC18 
+2. HID solution using Great Cow BASIC for the USB stack for PIC18
 3. Special protocol solution solution Great Cow BASIC for the USB stack for PIC18 and AVRs for educational testing of software.
-

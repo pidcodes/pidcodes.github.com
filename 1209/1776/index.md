@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Thelio Io
+title: System76 Thelio Io
 owner: System76
 license: GPLv3
 site: https://thel.io/

@@ -19,10 +19,10 @@ env:
 matrix:
   fast_finish: true
   include:
-    - rvm: 2.2.5
+    - rvm: 2.3.0
       env: TASK='htmlproofer'
-    - rvm: 2.2.5
+    - rvm: 2.3.0
       env: TASK='htmlproofer-external'
   allow_failures:
-    - rvm: 2.2.5
+    - rvm: 2.3.0
       env: TASK='htmlproofer-external'

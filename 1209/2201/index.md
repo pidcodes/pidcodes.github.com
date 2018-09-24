@@ -1,10 +1,10 @@
 ---
 layout: pid
-title: Shortcut Keyboard
+title: Raise Keyboard
 owner: Dygmalab
 license: GPLv3
 site: http://dygma.com
-source: https://github.com/Dygmalab/Kaleidoscope-Hardware-Shortcut
+source: https://github.com/Dygmalab/Kaleidoscope-Hardware-Raise
 ---
 Hardware design is in a separate repo:
-https://github.com/Dygmalab/Shortcut-Kicad-Schematic
+https://github.com/Dygmalab/Raise-Schematics

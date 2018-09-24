@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: U2FDevice
-owner: Michael Kuc
+owner: MichaelKuc
 license: GPLv3
 site: https://github.com/Crystalix007/U2FDevice
 source: https://github.com/Crystalix007/U2FDevice

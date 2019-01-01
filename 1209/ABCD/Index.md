@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: CodeBridge
+title: Infineo (MSC)
 owner: Sandeepan
 license: CC-BY-NC-ND 4.0
-site: https://github.com/SandeepanSengupta
-source: https://github.com/SandeepanSengupta/CodeBridge/
+site: https://www.sandeepan.info
+source: https://github.com/SandeepanSengupta/Infineo/
 ---
-USB bootloader for Infineo, an Arduino derivative system
+USB MSC firmware for Infineo, a generic Arduino derivative open source information processing system

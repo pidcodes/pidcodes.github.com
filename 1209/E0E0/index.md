@@ -6,4 +6,6 @@ license: CC-BY-NC-ND 4.0
 site: https://www.sandeepan.info/
 source: https://github.com/SandeepanSengupta/UF2-SAM21/tree/master/boards
 ---
-Microsoft UF2 Compliant USB bootloader (in  CDC) for ATSAMD21E18 Cortex M0+ MCU
+Microsoft UF2 Compliant USB **_bootloader_ (in  _CDC_)** for **ATSAMD21 (_ARM Cortex M0+_)** MCU
+<br/>
+Find development source files **_[here](https://github.com/SandeepanSengupta/SAMD21)

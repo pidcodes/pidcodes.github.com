@@ -1,9 +1,11 @@
 ---
 layout: pid
-title: Infineo (MSC)
+title: Domino
 owner: Sandeepan
 license: CC-BY-NC-ND 4.0
 site: https://www.sandeepan.info
-source: https://github.com/SandeepanSengupta/Infineo/
+source: https://github.com/SandeepanSengupta/UF2/tree/master/boards/domino/
 ---
-USB MSC firmware for Infineo, a generic Arduino derivative open source information processing system
+Microsoft UF2 Compliant USB **_firmware_ (in  _CDC_)** for **ATSAMD (_ARM Cortex MCU_)**
+<br/>
+Find development board source files **_[here](https://github.com/SandeepanSengupta/Domino)_**

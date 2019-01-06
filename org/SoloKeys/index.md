@@ -1,3 +1,4 @@
+---
 layout: org
 title: SoloKeys
 site: https://solokeys.com

@@ -1,9 +1,11 @@
 ---
 layout: pid
-title: CodeBridge
+title: Domino
 owner: Sandeepan
 license: CC-BY-NC-ND 4.0
-site: https://github.com/SandeepanSengupta
-source: https://github.com/SandeepanSengupta/CodeBridge/
+site: https://www.sandeepan.info
+source: https://github.com/SandeepanSengupta/UF2/tree/master/boards/domino/
 ---
-USB bootloader for Infineo, an Arduino derivative system
+Microsoft UF2 Compliant USB **_firmware_** for **ATSAMD (_ARM Cortex MCU_)**
+<br/>
+Find development board source files **_[here](https://github.com/SandeepanSengupta/Domino)_**

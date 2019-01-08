@@ -4,8 +4,8 @@ title: Gravitino
 owner: Sandeepan
 license: CC-BY-NC-ND 4.0
 site: https://www.sandeepan.info
-source: https://github.com/SandeepanSengupta/UF2/tree/master/boards/gravitino
+source: https://github.com/SandeepanSengupta/Gravitino/
 ---
-Microsoft UF2 Compliant USB **_firmware_** for **ATSAMD (_ARM Cortex MCU_)**
+Open source embedded development board
 <br/>
-Find development board source files **_[here](https://github.com/SandeepanSengupta/Gravitino)_**
+Find source files **_[here](https://github.com/SandeepanSengupta/Gravitino/tree/master/Sources/)_**

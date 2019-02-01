@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Nirvana USB Keyboard
-owner: Kaede Asatsuki
+owner: NirvanaKbds
 license: MIT
 site: https://scrapbox.io/self-made-kbds-ja/NirvanaType-SS
 source: https://github.com/KaedeAsatsuki/Nirvana

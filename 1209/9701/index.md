@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Hideez Wallet
-owner: Hideez Group Inc.
+owner: HideezGroup
 license: GPL-3.0
 site: https://hideez.io/
 source: https://github.com/HideezGroup/HideezWalletFw

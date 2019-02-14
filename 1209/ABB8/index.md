@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: SafeWISE
+title: SafeWISE Bootloader
 owner: CoinWISE
 license: GNU Affero General Public License v3.0
 site: https://safewise.io/

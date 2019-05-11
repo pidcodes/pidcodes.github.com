@@ -7,7 +7,7 @@ site: https://ravikiranb.com/projects/cmsis-dap-debug/
 source: https://github.com/rkprojects/openlink-v1-cmsis-dap
 ---
 
-Simple low cost CMSIS-DAP Debug Unit with USB HID interface to debug any ARM Cortex based microcontroller.
+Simple low cost CMSIS-DAP Debug Unit with USB HID interface to debug ARM Cortex based microcontrollers.
 
 Licenses:
 * Hardware design files are licensed under Creative Commons Attribution-ShareAlike 4.0 International License.

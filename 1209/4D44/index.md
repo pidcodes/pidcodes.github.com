@@ -2,7 +2,7 @@
 layout: pid
 title: MM1 Hat - Bootloader
 owner: Robotics-Masters
-license: MIT
+license: GPLv3
 site: https://robotics-masters.co/
 source: https://github.com/robotics-masters/mm1-hat-bootloader/
 ---

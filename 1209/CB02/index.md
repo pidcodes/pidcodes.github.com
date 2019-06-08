@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: CureMIDI8
-owner: keshikan
+owner: keshikan.net
 license: CC-BY 4.0, 3-clause BSD, GPLv3
 site: https://github.com/keshikan/CureMIDI8
 source: https://github.com/keshikan/CureMIDI8

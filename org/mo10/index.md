@@ -1,5 +1,5 @@
 ---
 layout: org
-title: Mo10
+title: mo10
 ---
 Develop hardware about USB

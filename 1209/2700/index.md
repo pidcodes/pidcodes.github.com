@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Pigeon
-owner: Mo10
+owner: mo10
 license: MIT
 site: https://github.com/mo10/STM32-Mini-LCD/
 source: https://github.com/mo10/STM32-Mini-LCD/

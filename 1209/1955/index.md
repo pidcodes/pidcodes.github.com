@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: The GRUB Switch
-owner: UNG Software
+owner: UNGsoftware
 license: MIT, Atmel
 site: https://github.com/rw-hsma-fpga
 source: https://github.com/rw-hsma-fpga/grub-switch/

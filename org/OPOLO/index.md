@@ -1,6 +1,6 @@
 ---
-layout: org
-title: OPOLO Limited
+layout: OPOLO
+title: OPOLO Ltd
 site: http://www.opolo.io/
 ---
 Making most secure hardware wallet for crypto currencies.

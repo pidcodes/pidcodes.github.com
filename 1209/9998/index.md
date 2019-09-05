@@ -1,5 +1,5 @@
 ---
-layout: 9998
+layout: pid
 title: OPOLO Cosmos Bootloader
 owner: OPOLO Limited
 license: MIT

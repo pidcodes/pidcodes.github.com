@@ -1,5 +1,5 @@
 ---
-layout: OPOLO
+layout: org
 title: OPOLO Ltd
 site: http://www.opolo.io/
 ---

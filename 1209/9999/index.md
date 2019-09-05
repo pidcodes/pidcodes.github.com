@@ -1,5 +1,5 @@
 ---
-layout: 9999
+layout: pid
 title: OPOLO Cosmos Firmware
 owner: OPOLO Limited
 license: MIT

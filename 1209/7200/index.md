@@ -3,6 +3,6 @@ layout: pid
 title: Gemini
 owner: c0bra-dev
 license: MIT, CERN OHL
-site: still in development
+site: https://github.com/c0bra-dev/Gemini
 source: https://github.com/c0bra-dev/Gemini
 ---

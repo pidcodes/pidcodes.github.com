@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: simpleFE
-owner: Ning Wang 
+owner: NingWang 
 license: GPLv2
 site: https://github.com/wnmusic/simpleFE
 source: https://github.com/wnmusic/simpleFE

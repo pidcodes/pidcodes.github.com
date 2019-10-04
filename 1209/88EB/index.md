@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Empyrean Beta
+title: Empyrean Beta (bootloader)
 owner: Etherkit
 license: GPL3
 site: http://www.etherkit.com/

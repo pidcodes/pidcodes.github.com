@@ -1,6 +1,6 @@
 ---
 layout: org
-title: Maveric Systems 
+title: MavericSystems 
 site: http://www.mavericsystems.com.au/
 ---
 I am a contract designer. At them moment I am looking into designing and open source EFIS products 

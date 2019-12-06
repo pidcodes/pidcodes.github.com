@@ -18,7 +18,9 @@ If your project doesn't yet meet these requirements, please hold off requesting 
 Create a fork of [our repository](https://github.com/pidcodes/pidcodes.github.com) on GitHub.
 
 ## 2. Set up your organisation page
-Create a directory named after your organisation in the `org` directory. Create a file inside it called `index.md` and add the following content:
+Create a directory named after your organisation in the `org` directory.
+The directory has to be named with no spaces.  
+Create a file inside it called `index.md` and add the following content:
 
 ```
 ---

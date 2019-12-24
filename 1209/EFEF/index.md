@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: CircuitBrains Deluxe
-owner: Kevin Neubauer
+owner: kevinneubauer
 license: MIT
 site: https://kevinneubauer.com/portfolio/circuitbrains-deluxe/
 source: https://github.com/neubauek/CircuitBrains

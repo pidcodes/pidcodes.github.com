@@ -3,9 +3,9 @@ layout: pid
 title: Domino
 owner: Sandeepan
 license: CC-BY-NC-ND 4.0
-site: https://www.sandeepan.info
-source: https://github.com/SandeepanSG/Domino/
+site: http://sandeepan.info
+source: http://github.com/SandeepanSG/Domino/
 ---
 Open source embedded development board
 <br/>
-Find source files **_[here](https://github.com/SandeepanSG/Domino/tree/master/Sources/)_**
+Find source files **_[here](http://github.com/SandeepanSG/Domino/tree/master/Sources/)_**

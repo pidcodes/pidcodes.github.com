@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Ultra-WideBand Feather
-owner: Prototyping Corner
+owner: PrototypingCorner
 license: CERN
 site: https://prototypingcorner.io/projects/uwb-feather
 source: https://github.com/prototyping-corner/uwb-feather

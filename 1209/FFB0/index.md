@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: OpenFFBoard
-owner: Yannick Richter
+owner: YannickRichter
 license: MIT
 site: https://github.com/Ultrawipf/OpenFFBoard
 source: https://github.com/Ultrawipf/OpenFFBoard

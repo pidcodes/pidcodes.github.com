@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: Bootleg
+title: Ino
 owner: SKKK
 license: GPLv2
-site: https://github.com/hidsh/qmk_firmware/tree/master/keyboards/bootleg
-source: https://github.com/hidsh/qmk_firmware/tree/master/keyboards/bootleg
+site: https://github.com/hidsh/qmk_firmware/tree/master/keyboards/ino
+source: https://github.com/hidsh/qmk_firmware/tree/master/keyboards/ino
 ---
-Bootleg - A keyboard with trackball and scroll ring
+Ino - A keyboard with trackball and scroll ring

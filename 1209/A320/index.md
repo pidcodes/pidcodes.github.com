@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: LrE-6
-owner: Raffles
+owner: espress0
 license: GPLv3
 site: https://github.com/jenoki/LrE-6/wiki
 source: https://github.com/jenoki/LrE-6

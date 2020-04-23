@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: snopf
+title: snopf USB Password Token
 owner: snopf
 license: GPL 2.0
 site: http://www.snopf.com/

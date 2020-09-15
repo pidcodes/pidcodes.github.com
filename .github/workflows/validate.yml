@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - run: pwd && python3 -m test.validate_pids
+      - run: python3 -m test.validate_pids
 

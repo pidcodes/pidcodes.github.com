@@ -24,5 +24,7 @@ jobs:
       - run: bundle exec jekyll doctor
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer $HTMLPROOFER_OPTIONS --disable-external
-      - run: bundle exec htmlproofer $HTMLPROOFER_OPTIONS
+      # External check fail because they fetch too quickly from sites and get
+      # 429 responses. We should cache checks and rate limit them as well.
+      # - run: bundle exec htmlproofer $HTMLPROOFER_OPTIONS
       - run: bundle exec github-pages health-check

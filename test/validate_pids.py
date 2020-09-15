@@ -16,3 +16,5 @@ if pid1xxx - existing_1xxx:
 
 if not ok:
     sys.exit(-1)
+
+print("No errors found!")

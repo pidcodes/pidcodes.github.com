@@ -1,7 +1,7 @@
-sudo: false # route your build to the container-based infrastructure for a faster build
-
 language: ruby
 
+dist: xenial
+os: linux
 # Cache Ruby bundles
 cache: bundler
 
@@ -16,7 +16,7 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
-matrix:
+jobs:
   fast_finish: true
   include:
     - rvm: 2.3.0

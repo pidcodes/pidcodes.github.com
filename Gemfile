@@ -12,3 +12,4 @@ gem "github-pages", versions['github-pages']
 gem "redcarpet"
 
 gem "html-proofer", '>=3.3.1'
+gem "jekyll", "=3.9.0"

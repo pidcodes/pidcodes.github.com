@@ -7,3 +7,4 @@ site: https://www.tindie.com/products/20752/
 source: https://github.com/Targett363/circuitpython
 ---
 For the Wrover version of Circuit Python on my Module Clip Board
+Schematics in process of being updated for the next revision.

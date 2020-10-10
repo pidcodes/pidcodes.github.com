@@ -2,7 +2,7 @@
 layout: pid
 title: S2 Module Clip Wrover
 owner: Targett
-license: Apache-2.0 OR MIT
+license: CERN
 site: https://github.com/Targett363/S2_Module_Clip_Board
 source: https://github.com/Targett363/circuitpython
 ---

@@ -2,7 +2,7 @@
 layout: pid
 title: Abies
 owner: Half-Spin
-license: GPL-v3.0
+license: MIT
 site: https://github.com/half-spin
 source: https://github.com/half-spin/abies_pcb
 ---

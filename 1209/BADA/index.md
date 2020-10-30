@@ -6,7 +6,7 @@ license: BSD-3-Clause + CERN-OHL-S v2
 site: https://github.com/bad-alloc-heavy-industries/MXKeyboard
 source: https://github.com/bad-alloc-heavy-industries/MXKeyboard
 ---
-After betting fed up with the state of mechanical keyboards a few years ago,
+After getting fed up with the state of mechanical keyboards a few years ago,
 MXKeyboard became DX-MON's brainchild.
 
 How about a mechanical backlit keyboard which has has no LED flicker by not

@@ -5,7 +5,7 @@ owner: Combine Reality
 license: cc-bt-sa-4.0
 site: combinereality.org
 source: https://github.com/CombineReality/North-Star-Integrator ; 
-Based on lilyPadUSB-caterina, for use with the Combine Reality North Star Integrator board: https://github.com/CombineReality/ArduinoCore-avr
+
 ---
 
 The North Star Integrator is a purpose-built USB hub 

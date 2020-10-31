@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: MJS2020: Meetjestad sensor station 2020
+title: "MJS2020: Meetjestad sensor station 2020"
 owner: Meetjestad
 license: CERN-OHL-W
 site: https://www.meetjestad.net

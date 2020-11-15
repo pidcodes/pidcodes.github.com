@@ -2,8 +2,8 @@
 layout: pid
 title: North Star Integrator
 owner: CombineReality
-license: cc-bt-sa-4.0
-site: combinereality.org
+license: cc-by-sa-4.0
+site: https://combinereality.com/integrator
 source: https://github.com/CombineReality/North-Star-Integrator ; 
 
 ---

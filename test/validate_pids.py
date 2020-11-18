@@ -20,6 +20,12 @@ for index in vid_1209.glob("*/*"):
         ok = False
         print("Invalid file:", index)
 
+
+for index in Path("org").glob("*/*"):
+    if index.name != "index.md":
+        ok = False
+        print("Invalid file:", index)
+
 for pid in vid_1209.iterdir():
     pid = pid.name
     if pid == "index.md":

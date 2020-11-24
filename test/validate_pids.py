@@ -15,10 +15,26 @@ pid0xxx = set([x.name for x in pid0xxx])
 
 ok = True
 
+for index in vid_1209.glob("*/*"):
+    if index.name != "index.md":
+        ok = False
+        print("Invalid file:", index)
+
+
+for index in Path("org").glob("*/*"):
+    if index.name != "index.md":
+        ok = False
+        print("Invalid file:", index)
+
 for pid in vid_1209.iterdir():
     pid = pid.name
     if pid == "index.md":
         continue
+    try:
+        int(pid, 16)
+    except ValueError:
+        ok = False
+        print("PID " + pid + " not valid hex. Must be 4 characters 0-9 or A-F.")
     if pid.upper() != pid:
         ok = False
         print("PID must be upper case:", pid)

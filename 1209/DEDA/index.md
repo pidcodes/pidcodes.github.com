@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Famicom Cartridge Dumper/Writer
-owner: Alexey 'Cluster' Avdyukhin
+owner: ClusterM
 license: GPLv3
 site: https://github.com/ClusterM/nessmd2usb
 source: https://github.com/ClusterM/nessmd2usb

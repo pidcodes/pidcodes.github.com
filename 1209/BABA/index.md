@@ -2,7 +2,7 @@
 layout: pid
 title: Famicom Cartridge Dumper/Writer
 owner: Cluster
-license: GPLv3
+license: MIT
 site: https://github.com/ClusterM/famicom-dumper
 source: https://github.com/ClusterM/famicom-dumper
 ---

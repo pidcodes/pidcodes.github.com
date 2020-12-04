@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: QUIK Mini
-owner: Phobos Instruments
+owner: phobos-instruments
 license: GNU General Public License v3.0
 site: https://phobos-instruments.com/
 source: https://github.com/phobos-instruments/QUIK-Knobs

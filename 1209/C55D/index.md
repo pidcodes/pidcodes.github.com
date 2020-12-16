@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: ch55xduino for HID devices
-owner: Think Create
+owner: ThinkCreate
 license: LGPL
 site: https://github.com/DeqingSun/ch55xduino
 source: https://github.com/DeqingSun/ch55xduino

@@ -1,4 +1,3 @@
-
 ---
 layout: org
 title: StackRduino

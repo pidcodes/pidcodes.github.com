@@ -4,5 +4,5 @@ title: MVMC-lab_M3_V1
 owner: MVMC-lab
 license: MIT License
 site: https://gitlab.com/MVMC-lab
-source: https://gitlab.com/j121706/m128_v3_layout
+source: https://gitlab.com/MVMC-lab/hervor/m3_layout
 ---

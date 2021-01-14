@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Double M33 Express
-owner: Steiert Solutions
+owner: SteiertSolutions
 license: MIT
 site: https://www.crowdsupply.com/steiert-solutions/double-m33-express
 source: https://github.com/gsteiert/double_m33_examples

@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Grabert
-owner: KoBuss LLC
+owner: kobussllc
 license: CC BY-NC 4.0
 site: https://github.com/KoBussLLC
 source: https://github.com/KoBussLLC/grabert-hardware

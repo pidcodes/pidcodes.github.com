@@ -2,7 +2,7 @@
 layout: pid
 title: riotboot DFU Bootloader
 owner: RIOT
-license: any
+license: LGPL-2.1
 site: http://riot-os.org/
 source: https://github.com/RIOT-OS/RIOT
 ---

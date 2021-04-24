@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: ukiha
+title: Ukiha
 owner: e3w2q
 license: MIT
 site: https://github.com/e3w2q/ukiha-keyboard

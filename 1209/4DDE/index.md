@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: CP Sapling Development Board Revision B
+title: CP Sapling Development Board w/ SPI Flash
 owner: OakDevelopmentTechnologies
 license: MIT
 site: https://github.com/skerr92/odt-dev-boards

@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: M122 3270 USB keyboard
+title: M122/3270 USB keyboard
 owner: TronGuyLabs
 license: GPL 2
 site: https://github.com/jmaynard/qmk_firmware

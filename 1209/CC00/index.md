@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: CC Proto
-owner: Chinatsu Chiba (azulee/mokesura)
+owner: mokesura
 license: MIT
 site: https://github.com/mokesura/cc_proto
 source: https://github.com/mokesura/cc_proto

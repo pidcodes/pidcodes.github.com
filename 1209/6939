@@ -1,8 +1,0 @@
----
-layout: pid
-title: BM60 EC
-owner: bonzi
-license: GNU GPLv2
-site: https://keebs.bonzi.sh/kprepublic/bm60-ec
-source: https://github.com/bonzi/bm60ec-qmk-config
----

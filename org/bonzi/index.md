@@ -1,6 +1,6 @@
 ---
 layout: org
 title: bonzi
-site: http://keebs.bonzi.sh/
+site: https://keebs.bonzi.sh/
 ---
 bonzi's keebs

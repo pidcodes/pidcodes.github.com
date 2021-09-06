@@ -1,0 +1,44 @@
+Info: Processing component "JP1:/0B60073D:TPMFG:1X05_ROUND".
+Info: Processing component "R9:/1D219127:TPMFG:0603-NO".
+Info: Processing component "SW1:/F85A3293:TPMFG:KMR2".
+Info: Processing component "R7:/2172FC05:TPMFG:0603-NO".
+Info: Processing component "R5:/15CD18EF:TPMFG:0603-NO".
+Info: Processing component "U2:/B929F621:TPMFG:SOT23-5".
+Info: Processing component "R4:/65B6CA22:TPMFG:0603-NO".
+Info: Processing component "L1:/B2CE564C:TPMFG:CHIPLED_0805_NOOUTLINE".
+Info: Processing component "U$34:/1AF98053:TPMFG:FIDUCIAL_1MM".
+Info: Processing component "JP4:/193933AB:TPMFG:1X14_ROUND70".
+Info: Processing component "JP2:/BAFA783C:TPMFG:1X14_ROUND70".
+Info: Processing component "U$35:/B9D1E2C2:TPMFG:FIDUCIAL_1MM".
+Info: Processing component "X3:/82D7A832:TPMFG:4UCONN_20329_V2".
+Info: Processing component "C6:/6333BD7E:TPMFG:0805-NO".
+Info: Processing component "C7:/8AD01514:TPMFG:0805-NO".
+Info: Processing component "Y1:/031B2028:TPMFG:RESONATOR-SMD".
+Info: Processing component "C8:/4085EC5D:TPMFG:0805-NO".
+Info: Processing component "C9:/9153FA9E:TPMFG:0603-NO".
+Info: Processing component "IC1:/AA6B0FCC:TPMFG:TQFN44_7MM".
+Info: Processing component "C14:/711FF4DB:TPMFG:0603-NO".
+Info: Processing component "D1:/2438F767:TPMFG:SOD-123".
+Info: Processing component "X1:/8679BB61:TPMFG:JSTPH2".
+Error: Cannot add X1 (footprint "TPMFG:JSTPH2" not found).
+Error: Cannot add U2 (footprint "TPMFG:SOT23-5" not found).
+Error: Cannot add U$34 (footprint "TPMFG:FIDUCIAL_1MM" not found).
+Error: Cannot add X3 (footprint "TPMFG:4UCONN_20329_V2" not found).
+Error: Cannot add SW1 (footprint "TPMFG:KMR2" not found).
+Error: Cannot add Y1 (footprint "TPMFG:RESONATOR-SMD" not found).
+Error: Cannot add U$35 (footprint "TPMFG:FIDUCIAL_1MM" not found).
+Error: Cannot add R9 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add R7 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add R5 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add R4 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add L1 (footprint "TPMFG:CHIPLED_0805_NOOUTLINE" not found).
+Error: Cannot add JP4 (footprint "TPMFG:1X14_ROUND70" not found).
+Error: Cannot add JP2 (footprint "TPMFG:1X14_ROUND70" not found).
+Error: Cannot add JP1 (footprint "TPMFG:1X05_ROUND" not found).
+Error: Cannot add IC1 (footprint "TPMFG:TQFN44_7MM" not found).
+Error: Cannot add D1 (footprint "TPMFG:SOD-123" not found).
+Error: Cannot add C14 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add C9 (footprint "TPMFG:0603-NO" not found).
+Error: Cannot add C8 (footprint "TPMFG:0805-NO" not found).
+Error: Cannot add C7 (footprint "TPMFG:0805-NO" not found).
+Error: Cannot add C6 (footprint "TPMFG:0805-NO" not found).

@@ -2,7 +2,7 @@
 layout: pid
 title: ATMega-Z80 - an 8 bit hobby computer
 owner: SyMat
-license: BSD-3
+license: Open source, permissive licenses. Software: BSD-3, Hardware: CERN-OHL-P.
 site: https://github.com/symat/atmega-z80
 source: https://github.com/symat/atmega-z80
 ---

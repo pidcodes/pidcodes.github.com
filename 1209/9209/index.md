@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: aek
-owner: myorg
+owner: djvs
 license: CC BY-SA for hardware, GPL for firmware
 site: http://www.github.com/djvs/aek
 source: http://github.com/djvs/aek

@@ -1,5 +1,5 @@
 ---
 layout: org
-title: BOSS-Keyboards
+title: BEKOS
 ---
 Engineering duo who decided to start making keyboards during the COVID pandemic

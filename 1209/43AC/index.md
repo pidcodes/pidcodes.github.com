@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: BEKOS Muse
+title: Muse
 owner: BEKOS
 license:  CC-BY-SA-4.0 License
 site: https://github.com/BEKOS-Keyboards/Muse/

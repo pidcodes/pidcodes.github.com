@@ -1,7 +1,7 @@
 ---
 layout: org
 title: BADGE.TEAM
-site: http://www.badge.team/
+site: https://www.badge.team/
 ---
 BADGE.TEAM is a group of people developing electronic conference badges.
 We've created the hardware for the SHA2017, HackerHotel 2019 & 2020 and MCH2022 badges

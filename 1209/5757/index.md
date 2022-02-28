@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: NickGuyver
+title: USB Device
 owner: NickGuyver
 license: GPLv3
 site: https://www.nickguyver.com/

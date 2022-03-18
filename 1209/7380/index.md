@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Challenger 840
-owner: Invector Labs
+owner: iLabs
 license: CERN Open Hardware Licence v1.2
 site: https://ilabs.se/product/challenger-840-ble
 source: https://gitlab.com/invectorlabs/hw/challenger_840

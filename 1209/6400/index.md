@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: AstroX64 Steering Wheel
-owner: MostlyWhat Systems
+owner: MostlyWhat-Systems
 license: GPL-3
 site: http://www.mostlywhat.cf/
 source: http://github.com/MostlyWhat/64BitAstro-Steering-Wheel

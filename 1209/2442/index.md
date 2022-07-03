@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Opilio - PC pump/fan controller
+title: Opilio - PC Fan/Pump Controller v1
 owner: mygnu
 license: GPLv3
 site: https://gill.net.in

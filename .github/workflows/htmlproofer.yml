@@ -1,5 +1,5 @@
 # Trigger the workflow on push or pull request
-on: [push, pull_request, workflow_disptach]
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest

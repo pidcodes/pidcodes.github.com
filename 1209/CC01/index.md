@@ -6,4 +6,3 @@ license: MIT
 site: https://github.com/mokesura/cc_practice
 source: https://github.com/mokesura/cc_practice
 ---
-A simple card-sized keyboard.

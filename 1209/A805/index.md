@@ -1,9 +1,8 @@
 ---
 layout: pid
 title: Pragmatic Keyboard 務實鍵盤
-owner: James Sa
+owner: Pragmatic
 license: MIT
 site: https://github.com/jamessa/Pragmatic
 source: https://github.com/jamessa/Pragmatic
 ---
-

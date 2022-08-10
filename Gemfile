@@ -11,4 +11,4 @@ end
 gem "github-pages", versions['github-pages']
 gem "redcarpet"
 
-gem "html-proofer", '>=3.3.1'
+gem "html-proofer", '>=3.3.1', '<4.0.0'

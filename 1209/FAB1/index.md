@@ -1,4 +1,4 @@
-﻿---
+---
 layout: pid
 title: LamDiNao
 owner: PAPCoDienTu

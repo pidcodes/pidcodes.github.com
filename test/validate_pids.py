@@ -50,7 +50,7 @@ for pid in vid_1209.iterdir():
         post = frontmatter.load(pid_path)
         layout = post.get('layout')
         if layout != "pid":
-            print(f"{pid_path}:0: Layout must be 'pid'")
+            print(f"{pid_path}:0: Layout must be 'pid'. Note: File may not contain a Byte Order Mark (BOM)")
             ok = False
         owner = post.get('owner')
         if owner is None:

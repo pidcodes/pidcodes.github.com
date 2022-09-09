@@ -1,5 +1,6 @@
 ---
 layout: pid
+title: "Desk Viking"
 owner: earth.li
 license: GPLv3
 site: https://github.com/u1f35c/desk-viking

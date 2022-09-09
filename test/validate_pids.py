@@ -7,6 +7,8 @@ existing_0xxx = {'0006', '01C0', '0007', '053A', '0256', '0008', '000F', '0BAB',
                  '0005', '0070', '0D32'}
 existing_1xxx = {'1AB6', '1005', '1776', '1001', '1007', '1AB5', '1002', '1006', '1004', '1003', '1986'}
 
+required_keys = ['title', 'license']
+
 vid_1209 = Path("1209")
 pid1xxx = vid_1209.glob("1*")
 pid1xxx = set([x.name for x in pid1xxx])
@@ -44,18 +46,27 @@ for pid in vid_1209.iterdir():
         print("Pid is too long: '" + pid + "'")
 
     try:
-        post = frontmatter.load(vid_1209 / pid / "index.md")
+        pid_path = vid_1209 / pid / "index.md"
+        post = frontmatter.load(pid_path)
+        layout = post.get('layout')
+        if layout != "pid":
+            print(f"{pid_path}:0: Layout must be 'pid'")
+            ok = False
         owner = post.get('owner')
         if owner is None:
-            print(f"No owner specified for {pid} @ {vid_1209 / pid / 'index.md'}")
+            print(f"{pid_path}:0: No owner specified")
             ok = False
             continue
         owner_path = Path("org") / owner / "index.md"
         if not owner_path.exists():
-            print(f"Owner file {owner} for pid {pid} does not exist")
+            print(f"{pid_path}:0: Owner file {owner} does not exist")
             ok = False
+        for k in required_keys:
+            if k not in post.metadata:
+                print(f"{pid_path}:0: Required key {k} not present in front matter")
+                ok = False
     except Exception as e:
-        print(f"Failure parsing front matter for {pid}: {e}")
+        print(f"{pid_path}: Failure parsing front matter: {e}")
         ok = False
 if pid1xxx - existing_1xxx:
     print("Cannot claim 1xxx PID:", pid1xxx - existing_1xxx)

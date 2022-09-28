@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: SFP Access Port
-owner: SMaclennan
+owner: SamMaclennan
 license: CERN-OHL-W-2.0 (Hardware) / MIT (Software)
 site: https://github.com/Cyclomatic-Dev/SFP-Access-Port
 source: https://github.com/Cyclomatic-Dev/SFP-Access-Port

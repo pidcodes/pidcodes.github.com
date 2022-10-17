@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: JukeBox V3
-owner: Friend Team Inc
+owner: FriendTeamInc
 license: MIT
 site: https://github.com/FriendTeamInc/JukeBox
 source: https://github.com/FriendTeamInc/JukeBox

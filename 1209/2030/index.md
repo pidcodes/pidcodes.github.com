@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Maker badge
-owner: Czech maker
+owner: Czech_maker
 license: MIT
 site: https://github.com/dronecz/maker_badge
 source: https://github.com/dronecz/maker_badge

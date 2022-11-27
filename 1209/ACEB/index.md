@@ -1,10 +1,10 @@
 ---
 layout: pid
-title: rp2040-dongle
+title: rp2040-dmxsun
 owner: openlightingproject
 license: GPL
-site: https://github.com/OpenLightingProject/rp2040-dongle
-source: https://github.com/OpenLightingProject/rp2040-dongle
+site: https://github.com/OpenLightingProject/rp2040-dmxsun
+source: https://github.com/OpenLightingProject/rp2040-dmxsun
 ---
 
 An open source [DMX512](https://en.wikipedia.org/wiki/DMX512) transmitter, 

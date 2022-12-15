@@ -15,3 +15,5 @@ pid.codes will assign PIDs on any VID we own to any open-source hardware project
 pid.codes will also gladly accept donations of Vendor IDs from other organisations that no longer require them, and take responsibility for administering them. If you have a VID code that is no longer in use, please contact us at [admin@pid.codes](mailto:admin@pid.codes).
 
 This site is in no way supported or endorsed by [USB-IF](http://www.usb.org/).
+
+The USB-IF is listing the VID used by pid.codes as [obsolete and invalid on their developer information page](https://www.usb.org/developers), along with the code points of similar projects (like OpenMoko) and several companies' VIDs. There is no indication that they would attempt to re-assign those IDs, nor that operating systems would reject them based on that list.

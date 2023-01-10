@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: *uino-1284p
+title: "*uino-1284p"
 owner: adilinden
 license: CC BY-SA
 site: https://github.com/adilinden/uino-1284p

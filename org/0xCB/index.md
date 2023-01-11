@@ -1,6 +1,6 @@
 ---
 layout: org
-title: 0xCB
+title: "0xCB"
 site: https://github.com/0xcb-dev
 ---
 

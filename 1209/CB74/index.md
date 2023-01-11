@@ -8,3 +8,5 @@ source: https://github.com/0xCB-dev/0xCB-Helios
 ---
 
 RP2040 based pro micro compatible microcontroller specially designed for keyboards.
+
+Software Source: [here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/0xcb) and staging is located [here](https://github.com/0xCB-dev/keeb-firmware-source).

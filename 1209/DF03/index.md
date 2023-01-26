@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: mi:muz-ch55x
+title: mi:muz:ch55x
 owner: TripArts-Music
 license: LGPL2.1
 site: https://www.arduinolibraries.info/libraries/mimuz-ch55x

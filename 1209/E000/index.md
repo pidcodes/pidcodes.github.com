@@ -1,9 +1,10 @@
 ---
 layout: pid
-title: MADI
+title: MADI Device
 owner: libmcu
-license: MIT
-site: https://libmcu.org
+license: Mix of licenses (GPL3, Apache-2.0)
+site: https://libmcu.org/kr/madi
 source: https://github.com/libmcu/development-board
 ---
-MADI is a development board for platform-independent and vendor-agnostic development.
+
+MADI is a microcontroller development board.

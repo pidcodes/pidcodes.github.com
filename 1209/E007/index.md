@@ -1,5 +1,5 @@
 ---
-layout: E007
+layout: pid
 title: Exp.007 SECCID
 owner: vx4.net
 license: GPLv3

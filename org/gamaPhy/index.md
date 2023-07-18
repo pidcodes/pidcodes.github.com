@@ -1,6 +1,6 @@
 ---
 layout: org
-title: gamaPhy LLC
+title: gamaPhy
 site: https://gamaphy.com/
 ---
 Bringing analog keyboard technology to the hobbyist community.

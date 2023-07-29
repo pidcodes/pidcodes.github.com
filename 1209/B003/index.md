@@ -9,4 +9,4 @@ The CH32V003 is a 10 cent microcontroller. RV003USB is a firmware-only USB stack
 
 Provided the bootloader has been installed, this allows you to flash the part without a bootloader.
 
-As a note: Only assume that this device is as intended if the first 4 WCHARs of SERIAL are "BOOT"
+As a note: Please monitor the serial number for further differentiation.

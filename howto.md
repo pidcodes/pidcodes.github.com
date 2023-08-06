@@ -18,7 +18,9 @@ If your project doesn't yet meet these requirements, please hold off requesting 
 Create a fork of [our repository](https://github.com/pidcodes/pidcodes.github.com) on GitHub.
 
 ## 2. Set up your organisation page
-Create a directory named after your organisation in the `org` directory. Create a file inside it called `index.md` and add the following content:
+Create a directory named after your organisation in the `org` directory.
+The directory has to be named with no spaces.  
+Create a file inside it called `index.md` and add the following content:
 
 ```
 ---
@@ -32,7 +34,7 @@ A short description of my organisation and what it does.
 If it's just you, that's fine too - put your own name and a short blurb about you and what you do. The site is an optional website for your organisation.
 
 ## 3. Find a VID and PID
-Browse the [list of PIDs](/1209/) for an unused PID number. You may request any number that is not in use, except those reserved as described on the VID page. Note that PIDs on our existing VID, 0x1209, may not start with 0x1xxx - this range is reserved by the original owners of the VID.
+Browse the [list of PIDs](/1209/) for an unused PID number. You may request any number that is not in use, except those reserved (0xxx and 1xxx) as described on the PID list page.
 
 When you've found a PID, create a directory named after it in the VID directory. So, if you picked PID `2345` on VID `1209`, create a directory with the path `/1209/2345/`. Inside it, create a file called `index.md` and add the following content:
 

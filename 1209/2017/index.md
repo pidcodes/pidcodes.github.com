@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: Mini SAM
+title: Mini SAM M4
 owner: bshockley
 license: MIT
-site: https://github.com/bwshockley/Minifigure-SAMD21E
-source: https://github.com/bwshockley/Minifigure-SAMD21E
+site: https://www.minifigboards.com
+source: https://github.com/bwshockley/Mini-SAM
 ---
-[Benjamin Shockley Github - Mini SAM](https://github.com/bwshockley/Minifigure-SAMD21E) is a minifigure shaped development board based on the SAMD21E chip.  License files located on the Github repository.
+Mini SAM M4 is a minifigure shaped development board.  License files located on the Github repository.

@@ -8,5 +8,5 @@ Open source Hardware and Software for retro gaming
 
 ### Licenses
 
-- Software: GPLv2
+- Software: GPLv3
 - Hardware: CERN-OHL-S-2.0

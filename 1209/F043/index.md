@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: MiniDexed
-owner: probonopd
+owner: MiniDexed
 license: GPLv3
 site: https://github.com/probonopd/MiniDexed/
 source: https://github.com/probonopd/MiniDexed/

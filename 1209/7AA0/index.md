@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: AIRDOS04 - Advanced Radiation Monitoring for Aircrafts
-owner: Universal Scientific Technologies
+owner: UniversalScientificTechnologies
 license: GPLv3.0
 site: https://www.ust.cz/
 source: https://github.com/universalScientificTechnologies/AIRDOS04

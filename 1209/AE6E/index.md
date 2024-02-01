@@ -4,5 +4,5 @@ title: OpenTNC
 owner: radagast
 license: GPL V3 (firmware) and CC BY-SA (schematic)
 site: http://www.radagast.org/~dplatt/hamradio/OpenTNC
-source: http://www.radagast.org/git/OpenTNC
+source: https://gitlab.com/davidplatt/opentnc
 ---

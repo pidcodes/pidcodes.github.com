@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Lily58
+title: Lily58 Pro Rev2
 owner: yuchi
 license: MIT
 site: https://kata0510.github.io/Lily58-Document/

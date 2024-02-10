@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: *uino-32u4
+title: "uino-32u4"
 owner: adilinden
 license: CC BY-SA
 site: https://github.com/adilinden/uino-32u4

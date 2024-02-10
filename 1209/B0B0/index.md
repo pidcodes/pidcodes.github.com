@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Monero Bootloader
+title: Bootloader
 owner: Monero
 license: CERN
 site: https://getmonero.org/

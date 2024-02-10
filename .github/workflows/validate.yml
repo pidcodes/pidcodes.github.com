@@ -1,0 +1,13 @@
+# Trigger the workflow on push or pull request
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Python Validator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt; python3 -m test.validate_pids
+

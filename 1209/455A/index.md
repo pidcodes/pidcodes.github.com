@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: ErgoDonk Zero
+title: ErgoDonk Zero Split Keyboard
 owner: JellyTitan
 license: MIT
-site: https://github.com/JellyTitan/ErgoDonk-Zero
+site: https://www.ergodonk.com
 source: https://github.com/JellyTitan/ErgoDonk-Zero
 ---
 

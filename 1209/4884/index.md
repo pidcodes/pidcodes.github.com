@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: RAVA RNG v1
+title: RAVA RNG
 owner: GabrielGuerrer
 license: CC BY-SA 4.0 (hardware) / MIT (firmware, software)
 site: http://github.com/gabrielguerrer/rng_rava

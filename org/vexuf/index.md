@@ -22,7 +22,3 @@ The "Seth" device (Deprecated) was used as a sensor board to communicate with
 a Raspberry Pi computer directly to give sensor readings via the serial port.
 It was built on a custom Arduino-based board.
 
-### About Aly Badawy
-
-VexUF, is designed by Aly Badawy (Callsign: AL0Y), Aly is a software developer
-and an embedded systems engineer. (more on https://github.com/alybadawy)

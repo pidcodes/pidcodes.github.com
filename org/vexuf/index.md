@@ -22,3 +22,5 @@ The "Seth" device (Deprecated) was used as a sensor board to communicate with
 a Raspberry Pi computer directly to give sensor readings via the serial port.
 It was built on a custom Arduino-based board.
 
+site: https://www.vexuf.com/
+source: https://github.com/AlyBadawy/VexUF_Horus_fw.git

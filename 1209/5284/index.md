@@ -4,6 +4,6 @@ title: nRFMicro Bootloader
 owner: joric
 license: Unlicense
 site: https://github.com/joric/nrfmicro/wiki
-source: https://github.com/joric/nrfmicro
+source: https://github.com/adafruit/Adafruit_nRF52_Bootloader/pull/342
 ---
 A Pro Micro alternative for wireless keyboards

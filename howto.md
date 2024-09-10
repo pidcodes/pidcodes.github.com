@@ -47,6 +47,7 @@ license: MIT
 site: http://www.mysite.com/
 source: http://github.com/myorg/mydevice/
 ---
+A short description of my device and what it does.
 ```
 
 The `title` field is what will appear on the pid.codes directory. Titles will be prefixed with the name of your organisation, so don't include that in the title. Try and pick a name you'd want to see in Device Manager or dmesg.

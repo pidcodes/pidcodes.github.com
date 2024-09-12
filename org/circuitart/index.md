@@ -1,6 +1,6 @@
 ---
 layout: org
-title: joric
+title: CircuitArt
 site: https://github.com/CircuitART
 ---
 open source dev boards

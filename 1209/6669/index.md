@@ -1,9 +1,9 @@
 ---
 layout: pid
 title: TitaniumKeyboard
-owner: QuestionableArtism
+owner: SmoothBraneIndustries
 license: GPLv2
-site: https://ilovetitanium.com/
-source: https://github.com/QuestionableArtism/Questionable-Keyboard
+site: https://smoothbraneindustries.com/
+source: https://github.com/SmoothBraneIndustries/Questionable-Keyboard
 ---
 Open source keyboard made from scratch.  Hopefully will not make my computer explode.

@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: MFSerial
-owner: First.AC
+owner: first.ac
 license: GPLv3
 site: https://github.com/zibredlektab/MFSerial
 source: https://github.com/zibredlektab/MFSerial

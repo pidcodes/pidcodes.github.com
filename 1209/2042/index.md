@@ -6,4 +6,4 @@ license: MIT, BSD 3
 site: http://www.wlanpi.com/
 source: https://github.com/WLAN-Pi/
 ---
-Open Source Multitool for Wireless Pros
+Open Source Wireless Network Multitool for Wireless Pros running linux and built on Raspberry Pi hardware

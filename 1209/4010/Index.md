@@ -2,7 +2,7 @@
 layout: pid
 title:  Fresh's FreeDeck
 owner: FreshLabs Interactive
-license: MIT
+license: GPL 3.0
 site: https://github.com/jfresh401/FreeDeck-Source
 source: https://github.com/jfresh401/FreeDeck-Source
 ---

@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: FreeDeck
+title:  Fresh's FreeDeck
 owner: FreshLabs Interactive
 license: MIT
-site: https://github.com/FreeYourStream/freedeck-hardware
-source: https://github.com/FreeYourStream/freedeck-hardware
+site: https://github.com/jfresh401/FreeDeck-Source
+source: https://github.com/jfresh401/FreeDeck-Source
 ---
 The FreeDeck is a macro pad that will be used for Unity games.

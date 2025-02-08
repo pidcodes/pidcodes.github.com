@@ -15,3 +15,6 @@ virtual pin cabs, including button inputs, plunger sensor inputs, accelerometer
 (for nudge sensing), and feedback-effect devices (lights, solenoids, motors,
 etc).  The Pico communicates with host software on the PC via USB, using a
 variety of standard HID interfaces and custom application-specific interfaces.
+The project includes firmware for the Pico, plus a set of circuit board designs
+for "expansion board" that supplement the Pico's I/O capabilities with added
+input ports and high-current output ports for feedback devices.

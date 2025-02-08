@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Pinscape Pico
+title: Pico Controller
 owner: Pinscape
 license: MIT
 site: https://github.com/mjrgh/PinscapePico/

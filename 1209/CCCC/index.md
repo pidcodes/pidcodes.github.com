@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: CDC Console
+title: zeptoforth CDC Console
 owner: zeptoforth
 license: MIT
 site: https://github.com/tabemann/zeptoforth/

@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Mr.Duppl
-owner: UBDK
+owner: UTBDK
 license: MIT
 site: https://github.com/buglloc/mr.duppl
 source: https://github.com/buglloc/mr.duppl

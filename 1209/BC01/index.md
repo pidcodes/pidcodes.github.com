@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: fat8
-owner: kearney.org
+owner: kearney.dev
 license: BSD + CERN-OHL
 site: https://github.com/jkearneyma/fat8
 source: https://github.com/jkearneyma/fat8

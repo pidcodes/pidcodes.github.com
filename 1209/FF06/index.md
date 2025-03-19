@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: TReK TIJUANA LP
+title: TReK esAlice
 owner: digitarhythm
 license: MIT
-site: https://github.com/digitarhythm/TijuanaLP
-source: https://github.com/digitarhythm/TijuanaLP
+site: https://github.com/digitarhythm/esAlice
+source: https://github.com/digitarhythm/esAlice
 ---

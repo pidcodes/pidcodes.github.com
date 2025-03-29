@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: TReK esAlice
+title: TReK Woorden
 owner: digitarhythm
 license: MIT
-site: https://github.com/digitarhythm/esAlice
-source: https://github.com/digitarhythm/esAlice
+site: https://github.com/digitarhythm/woorden
+source: https://github.com/digitarhythm/woordeesAlicen
 ---

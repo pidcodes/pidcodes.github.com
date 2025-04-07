@@ -12,3 +12,5 @@ Mathpad allows for effortless typing of mathematical symbols and equations acros
 
 Mathpad's firmware is built on QMK and licensed under GNU General Public License v3. 
 Its hardware is licensed under CERN-OHL-S v2
+
+Mathpad is OS agnostic and works with Windows, macOS, and virtually all Linux distros.

@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: TReK Woorden
+title: TReK Periodt
 owner: digitarhythm
 license: MIT
-site: https://github.com/digitarhythm/woorden
-source: https://github.com/digitarhythm/woordeesAlicen
+site: https://github.com/digitarhythm/periodt
+source: https://github.com/digitarhythm/periodt
 ---

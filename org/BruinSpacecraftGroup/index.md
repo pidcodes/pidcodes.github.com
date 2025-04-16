@@ -3,4 +3,4 @@ layout: org
 title: Bruin Spacecraft Group
 site: https://bruinspace.com/
 ---
-Bruin Spacecraft Group was founded with the intent of providing a creative and supportive environment for space mission design and development at UCLA.
+BruinSpace at UCLA is a student-led organization dedicated to fostering innovation, collaboration, and hands-on experience in the field of aerospace engineering. Through hands-on projects, educational programs, and industry partnerships, BruinSpace is creating an environment where students can grow, lead, and make a tangible impact on the world of space exploration.

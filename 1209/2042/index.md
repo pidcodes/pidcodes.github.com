@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: KBP Macro Pad
-owner: Kenny Black Printing LLC
+owner: kennyblackprinting
 license: GPLv3
 site: https://github.com/YodaDistro
 source: https://github.com/YodaDistro/qmk_firmware/tree/YodaPico

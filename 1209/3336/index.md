@@ -8,4 +8,4 @@ source: https://github.com/qmk/qmk_firmware
 ---
 The Franky36 is 36 key compact handwired split keyboard. It uses RP2040-Zero controller and QMK firmware.
 
-Firmware uses QMK and can be found at the above source (will update QMK link when merged). Licensed as GPL2+.
+Firmware uses QMK and can be found at the above source. Licensed as GPL2+.

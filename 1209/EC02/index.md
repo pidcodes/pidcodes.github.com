@@ -1,10 +1,10 @@
 ---
 layout: pid
-title: ECmacro02
+title: ECmacro
 owner: QuadState
 license: MIT, CC BY 4.0
-site: https://github.com/QuadState/ECmacro02
-source: https://github.com/QuadState/ECmacro02
+site: https://github.com/QuadState/ECmacro
+source: https://github.com/QuadState/ECmacro
 ---
-A compact 2-key USB macro pad using electrostatic capacitive switches and a CH552 microcontroller.  
-It functions as a USB HID device and supports Volume Up, Volume Down, and Mute.
+A compact USB macro pad utilizing electrostatic capacitive switches like topre.  
+ECmacro achieves capacitive sensing with only a microcontroller and a few passive components.

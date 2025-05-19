@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Gravity-36
+title: Gravity36
 owner: GreenKeys
 license: CC-BY-NC-SA
 site: https://green-keys.info/

@@ -2,7 +2,7 @@
 layout: pid
 title: Gravity-45
 owner: GreenKeys
-license: CC-BY-NC-ND
+license: CC-BY-SA-NC
 site: https://green-keys.info/
 source: https://drive.google.com/drive/folders/1e-c62-ID7IzSl4b39KkLNPqCPHoULJKY
 ---

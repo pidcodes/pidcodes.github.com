@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Shell
-owner: Keycard
+owner: keycard
 license: MIT
 site: https://keycard.tech/
 source: https://github.com/keycard-tech/keycard-shell

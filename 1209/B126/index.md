@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: noForth-t-CDC-driver
+title: noForth t CDC driver
 owner: noForth
 license: MIT
 site: https://home.hccnet.nl/anij/nof/noforth.html

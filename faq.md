@@ -26,6 +26,16 @@ Yes, absolutely. You need to have created a repository for your source code some
 ### My project is no longer OSH-licensed, what happens to my PID?
 We'd really rather you didn't do this, but we won't try and 'take away' your PID. Once it's assigned to you, it's yours until the heat death of the universe. However, don't expect any more PIDs from us in future!
 
+### My project isn't OSH-licensed, can I still get a PID?
+Not from pid.codes. pid.codes is for open source projects only. However, many microcontroller vendors provide PIDs for customers for no or low cost compared to buying a full VID. Here are the vendor programs we're aware of:
+
+* [Espressif](https://github.com/espressif/usb-pids)
+* [NXP](https://community.nxp.com/t5/Kinetis-Microcontrollers/NXP-USB-VID-PID-Program/ta-p/1124867)
+* [MicroChip](https://www.microchip.com/usblicensing/)
+* [Nordic](https://devzone.nordicsemi.com/f/nordic-q-a/50638/usb-pid-for-nrf52840)
+* [Silabs](https://www.silabs.com/interface/request-product-id)
+* [FTDI](http://www.ftdichip.com/Support/Knowledgebase/index.html?caniuseftdisvidformypr.htm)
+
 ### What if I request a PID at the same time as someone else?
 PIDs are allocated in the order pull requests are submitted. If the first pull request is rejected for whatever reason, the PID will go to a subsequent requester.
 

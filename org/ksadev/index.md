@@ -1,5 +1,5 @@
 ---
 layout: org
-title: ksalternative boot
+title: ksalternative
 ---
-Bootloader for stm32 devices
+Bootloaders for stm32 and HID devices

@@ -4,5 +4,5 @@ title: hp_device
 owner: ksalternative
 license: MIT
 site: www.ksa.com
-source: 
+source: https://github.com/fa1ke5/stm32-dfu-bootloader
 ---

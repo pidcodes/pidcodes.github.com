@@ -4,7 +4,7 @@ title: ZettaLights
 owner: barkitup
 license: CC BY-SA 3.0
 site: https://bsky.app/profile/barkitup.dog
-source: http://github.com/joshuawboone/barkitup/zettalights
+source: https://github.com/joshuawboone/barkitup/tree/main/zettalights
 ---
 ZettaLights is an Arduino SAMD based controller board designed for use in wearable and portable applications for LEDs. 
 The design has pinouts to add WS1282b LED strips or arrays and an external button for control. 

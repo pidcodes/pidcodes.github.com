@@ -1,9 +1,0 @@
----
-layout: pid
-title: Sandbox FXCore
-owner: sandboxpedal
-license: MIT
-site: http://sandboxpedal.com/
-source: https://github.com/DisasterAreaDesigns/Sandbox-FXCore
----
-Open-source DSP guitar pedal with web-based programming interface

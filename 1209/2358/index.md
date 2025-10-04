@@ -1,7 +1,7 @@
 ---
 layout: pid
-title: split keyboard
-owner: Won-CCS
+title: ErgoGain
+owner: ErgoGain
 license: MIT
 site: https://ergogain.co.jp/
 source: https://github.com/Won-CCS/ErgoGain.git

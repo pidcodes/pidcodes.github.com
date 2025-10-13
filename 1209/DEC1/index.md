@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: RP2350B Core
-owner: WeAct Studio
+owner: WeActStudio
 license: GPLv2
 site: https://www.weact-tc.cn/
 source: https://github.com/WeActStudio/WeActStudio.RP2350BCoreBoard

@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Simgames.EU SGB-244R BC SimRacing Controller
-owner: Simgames.EU
+owner: SimgamesEU
 license: MIT
 site: https://github.com/SimgamesEU
 source: https://github.com/SimgamesEU

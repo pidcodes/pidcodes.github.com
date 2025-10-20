@@ -1,13 +1,13 @@
 ---
 layout: pid
-title: SimgamesEU R244 SimRacing Controller
-owner: SimgamesEU
+title: Simgames.EU SGB-244R BC SimRacing Controller
+owner: Simgames.EU
 license: MIT
 site: https://github.com/SimgamesEU
 source: https://github.com/SimgamesEU
 ---
 
-# SimgamesEU R244 SimRacing Controller
+# Simgames.EU SGB-244R BC SimRacing Controller
 
-A custom USB sim racing controller developed by SimgamesEU.
-Model R244, based on QMK/VIAL firmware and a custom Python GUI frontend.
+A custom USB sim racing controller developed by Simgames.EU.  
+Model SGB-244R BC, based on QMK/VIAL firmware and a custom Python GUI frontend.

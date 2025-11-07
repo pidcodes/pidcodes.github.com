@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Ember One
-owner: 256 Foundation
+owner: 256Foundation
 license: CERN-OHL-S
 site: https://emberone.org
 source: https://github.com/256foundation/emberone00-pcb

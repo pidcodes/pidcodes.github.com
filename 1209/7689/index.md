@@ -2,9 +2,9 @@
 layout: pid
 title: LGDXRobot2
 owner: LGDXRobotics
-license: MIT and GPLv3
+license: MIT and GPLv3 (ChassisTuner only)
 site: https://lgdxrobot.bristolgram.uk/lgdxrobot2/
-source: https://github.com/yukaitung/lgdxrobot2-mcu
+source: https://gitlab.com/yukaitung/lgdxrobot2-mcu
 ---
 LGDXRobot2 is a DIY Mecanum wheel chassis designed for building ROS2 robots using low-cost hardware. It offers complete freedom to customise hardware specifications and aims to inspire your enthusiasm on robotics.
 

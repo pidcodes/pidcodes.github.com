@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: Pico Expander
-owner: Studio Lab
+owner: Studio-Lab
 license: CERN OHL S 2.0
 site: https://id-studiolab.github.io/Connected-Interaction-Kit/test/components/pico-expander/pico-expander
 source: https://github.com/id-studiolab/PicoExpander

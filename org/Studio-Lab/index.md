@@ -1,6 +1,6 @@
 ---
 layout: org
-title: Studio Lab  
+title: Studio-Lab  
 site: https://studiolab.ide.tudelft.nl/studiolab/
 ---
 A community of industrial design researchers.

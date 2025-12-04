@@ -6,7 +6,7 @@ jobs:
     name: Python Validator
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt; python3 -m test.validate_pids

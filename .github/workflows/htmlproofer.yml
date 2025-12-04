@@ -7,7 +7,7 @@ jobs:
     env:
       HTMLPROOFER_OPTIONS: '--ignore-urls /www.andreas.org/,/www.kbles.ru/,/github.com\/KK2345\/TinyPassword$/,/github.com\/KK2345\/TinyPassword\/blob\/master\/README.md/,/www.oshec.org/,/github.com\/xuio\/Cynteract$/,/github.com\/mattomatto\/craft$/,/triparts.strikingly.com$/,/facebook.com/varioskybean$/'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'

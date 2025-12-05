@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: ZettaLights
-owner: barkitup
+owner: BarkItUp
 license: CC BY-SA 3.0
 site: https://bsky.app/profile/barkitup.dog
 source: https://github.com/joshuawboone/barkitup/tree/main/zettalights

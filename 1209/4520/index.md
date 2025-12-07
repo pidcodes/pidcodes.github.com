@@ -2,7 +2,7 @@
 layout: pid
 title: JTAG Switch
 owner: molnarkares
-license: Apache-2.0
+license: Apache-2.0, Solderpad v2.1
 site: https://github.com/molnarkares/jtag-switch
 source: https://github.com/molnarkares/jtag-switch
 ---

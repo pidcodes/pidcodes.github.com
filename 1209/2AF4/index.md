@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: KeeBar
+title: PinKey
 owner: ymkn
 license: MIT
 site: https://github.com/ymkn/PinKey

@@ -18,7 +18,9 @@ If your project doesn't yet meet these requirements, please hold off requesting 
 Create a fork of [our repository](https://github.com/pidcodes/pidcodes.github.com) on GitHub.
 
 ## 2. Set up your organisation page
-Create a directory named after your organisation in the `org` directory. Create a file inside it called `index.md` and add the following content:
+Create a directory named after your organisation in the `org` directory.
+The directory has to be named with no spaces.  
+Create a file inside it called `index.md` and add the following content:
 
 ```
 ---
@@ -32,7 +34,7 @@ A short description of my organisation and what it does.
 If it's just you, that's fine too - put your own name and a short blurb about you and what you do. The site is an optional website for your organisation.
 
 ## 3. Find a VID and PID
-Browse the [list of PIDs](/1209/) for an unused PID number. You may request any number that is not in use, except those reserved as described on the VID page. Note that PIDs on our existing VID, 0x1209, may not start with 0x1xxx - this range is reserved by the original owners of the VID.
+Browse the [list of PIDs](/1209/) for an unused PID number. You may request any number that is not in use, except those reserved (0xxx and 1xxx) as described on the PID list page.
 
 When you've found a PID, create a directory named after it in the VID directory. So, if you picked PID `2345` on VID `1209`, create a directory with the path `/1209/2345/`. Inside it, create a file called `index.md` and add the following content:
 
@@ -45,6 +47,7 @@ license: MIT
 site: http://www.mysite.com/
 source: http://github.com/myorg/mydevice/
 ---
+A short description of my device and what it does.
 ```
 
 The `title` field is what will appear on the pid.codes directory. Titles will be prefixed with the name of your organisation, so don't include that in the title. Try and pick a name you'd want to see in Device Manager or dmesg.
@@ -53,7 +56,7 @@ For the `owner` field, specify the name of the directory you created for your or
 
 The `site` field should point to the most relevant URL about your project. The `source` field must point to a URL at which users can find the source code for your device; this includes both PCB designs and firmware. This does not have to be on GitHub. The two URLs can be the same.
 
-Under the second triple-dashed line, you may write a short description of your project, if you wish; this is not mandatory.
+Under the second triple-dashed line, you should write a short description of your project including what hardware and software it uses.
 
 ## 4. Send us a pull request
 Commit your changes to your fork of the repository with a descriptive commit message, and [send us a pull request](https://help.github.com/articles/using-pull-requests/). Pull requests will only be accepted if they follow the rules laid out for the VID you are requesting a PID under. If this is not your first PID, or you're requesting multiple PIDs, we may ask for more details and justification. Once we accept your pull request, your registration will go live and appear on pid.codes.

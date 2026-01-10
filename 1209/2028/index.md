@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: ZeyBack R2RDAC
-owner: zeyBack
+owner: zeyback
 license: GPL-3.0-or-later
 site: https://github.com/ERDALECE/ZeyBack
 source: https://github.com/ERDALECE/ZeyBack

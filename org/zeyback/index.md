@@ -1,6 +1,6 @@
 ---
 layout: org
-title: zeyback
+title: Zeyback
 site: https://github.com/ERDALECE/ZeyBack
 ---
 

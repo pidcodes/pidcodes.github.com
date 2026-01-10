@@ -1,0 +1,11 @@
+---
+layout: pid
+title: ZeyBack R2RDAC
+owner: ZeyBack
+license: GPL-3.0-or-later
+site: https://github.com/ERDALECE/ZeyBack
+source: https://github.com/ERDALECE/ZeyBack
+---
+
+USB Audio Class 2.0 interface (STM32H7 + FPGA) for a high-performance R-2R DAC platform.
+PCM up to 384 kHz / 24-bit; native DSD work in progress.

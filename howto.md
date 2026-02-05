@@ -10,7 +10,7 @@ If your project does not meet the following criteria, your pull request **will**
  - Containing modifiable PCB design files (schematics and layout) and/or source code for a device with a USB interface...
  - Licensed under a recognized open source or open source hardware license. (See the [Open Source Hardware Definition](https://oshwa.org/resources/open-source-hardware-definition/) for details.) Your source code repository must contain a LICENSE file attesting to this fact.
 
-If your project involves both hardware and software, both need to be licensed under recognised OSS and OSHW licenses. If your project involves only one or the other, we may ask for further justification as to why you need a PID associated with your software project / development board instead of allowing end-users to request their own. 
+If your project involves both hardware and software, both need to be licensed under recognised OSS and OSHW licenses. If your project involves only one or the other, we may ask for further justification as to why you need a PID associated with your software project / development board instead of allowing end-users to request their own.
 
 If your project doesn't yet meet these requirements, please hold off requesting a PID until it does. Don't worry, we're not likely to run out of PIDs soon.
 

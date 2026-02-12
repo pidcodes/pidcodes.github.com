@@ -1,4 +1,0 @@
-Board: STM32F103 (BluePill)
-Description: CustomSimEchoSystem Universal Interface - A high-performance USB bridge for simulation hardware.
-License: MIT
-URL: https://github.com/customsmtr/Sim-Universal-Interface-STM32

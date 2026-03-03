@@ -1,6 +1,6 @@
 ---
 layout: org
 title: BlueBite
-site: https://github.com/likeaspell
+site: http://www.bluebite.co.kr/
 ---
 usb peripheral manufacturing company.

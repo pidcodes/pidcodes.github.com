@@ -3,7 +3,7 @@ layout: pid
 title: UVC Camera
 owner: DJ.Yoon
 license: BlueBite
-site: https://github.com/likeaspell/KeyPedal_ZMK
-source: https://github.com/likeaspell/KeyPedal_ZMK
+site: http://www.bluebite.co.kr/
+source: https://github.com/likeaspell/KeyPedal_ZMK/
 ---
-UVC Camera
+A short description of my device and what it does.

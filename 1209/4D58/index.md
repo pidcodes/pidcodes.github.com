@@ -1,9 +1,9 @@
 ---
 layout: pid
 title: Mixlar Mix
-owner: Mixlarlabs
+owner: MixlarLabs
 license: MIT
-site: http://mixlar.net
+site: https://mixlar.net
 source: https://github.com/MixlarLabs/MixlarControl
 ---
-Mixlar Mix is an open-source hardware that lets users control their pc audio
+USB MIDI controller and audio mixer built on ESP32-S3 with TinyUSB composite device (CDC + MIDI + MSC). Features 4 analog sliders, 6 macro buttons, rotary encoder, and 480x320 touch display.

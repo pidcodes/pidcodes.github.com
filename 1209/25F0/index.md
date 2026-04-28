@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Generic USB CDC-ACM Device
+title: JxMake USB CDC-ACM Device
 owner: blue-wind-25
 license: LGPL-3.0-or-later
 site: https://sourceforge.net/projects/jxmake/

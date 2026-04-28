@@ -1,6 +1,6 @@
 ---
 layout: org
-title: Independent Developer
+title: Blue Wind 25
 site: https://sourceforge.net/projects/jxmake/
 ---
 JxMake is a Java‑based, cross‑platform build system inspired by the syntax and features of GNU Make, Perforce Jam, and CMake.

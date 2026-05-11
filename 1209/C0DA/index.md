@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Monero Firmware
+title: Firmware
 owner: Monero
 license: CERN
 site: https://getmonero.org/

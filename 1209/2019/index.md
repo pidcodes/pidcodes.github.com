@@ -1,5 +1,5 @@
 ---
-layout: 2019
+layout: pid
 title: PunchBOOT
 owner: jop
 license: BSD-3

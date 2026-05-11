@@ -1,8 +1,8 @@
 ---
 layout: pid
-title: Offline Password Keeper Bootloader
+title: Mooltipass Mini BLE
 owner: mooltipass
 license: CDDL
 site: http://www.themooltipass.com
-source: https://github.com/limpkin/mooltipass
+source: https://github.com/mooltipass/minible
 ---

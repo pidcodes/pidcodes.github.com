@@ -3,4 +3,4 @@ layout: org
 title: ODrive Robotics
 site: https://odriverobotics.com/
 ---
-ODrive is a project to create open source high performance motor controllers.
+ODrive is a project to create high performance motor controllers for robotics.

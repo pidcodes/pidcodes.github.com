@@ -1,0 +1,30 @@
+# Trigger the workflow on push or pull request
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: HTML Proofer
+    env:
+      HTMLPROOFER_OPTIONS: '--ignore-urls /www.andreas.org/,/www.kbles.ru/,/github.com\/KK2345\/TinyPassword$/,/github.com\/KK2345\/TinyPassword\/blob\/master\/README.md/,/www.oshec.org/,/github.com\/xuio\/Cynteract$/,/github.com\/mattomatto\/craft$/,/triparts.strikingly.com$/,/facebook.com/varioskybean$/'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - uses: actions/cache@v5
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Bundle install
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - run: bundle exec jekyll doctor
+      - run: bundle exec jekyll build
+      - run: bundle exec htmlproofer ./_site --swap-urls "http[s]\://pid.codes:" --no-enforce-https --disable-external --log-level=:debug $HTMLPROOFER_OPTIONS
+      # External check fail because they fetch too quickly from sites and get
+      # 429 responses. We should cache checks and rate limit them as well.
+      # - run: bundle exec htmlproofer $HTMLPROOFER_OPTIONS
+      - run: bundle exec github-pages health-check

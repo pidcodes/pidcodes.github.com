@@ -1,14 +1,13 @@
+source "https://rubygems.org"
+
 require "json"
 require "open-uri"
 
-source "https://rubygems.org"
-
-versions = open("https://pages.github.com/versions.json") do |source|
-  JSON.parse(source.read)
-end
+versions = JSON.parse(OpenURI.open_uri('https://pages.github.com/versions.json').read)
 
 # Github Pages environment
 gem "github-pages", versions['github-pages']
 gem "redcarpet"
 
 gem "html-proofer", '>=3.3.1'
+

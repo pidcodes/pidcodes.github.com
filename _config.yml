@@ -45,7 +45,7 @@ share_stumbleupon: false
 
 # Build settings
 exclude: [vendor]
-gems:
+plugins:
  - jekyll-paginate
 liquid:
   error_mode: strict

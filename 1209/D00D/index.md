@@ -1,6 +1,6 @@
 ---
 layout: pid
-title: Monero Developer
+title: Developer
 owner: Monero
 license: CERN
 site: https://getmonero.org/

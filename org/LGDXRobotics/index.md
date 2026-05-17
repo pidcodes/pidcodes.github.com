@@ -1,6 +1,6 @@
 ---
 layout: org
-title: LGDXRobotics
-site: https://lgdxrobot.bristolgram.uk/
+title: LGDXRobot
+site: https://lgdxrobot.uk/
 ---
-LGDXRobotics brings robotics to everyone through openness and simplicity, offering a unified knowledge-access experience.
+LGDXRobot develops solutions for ROS 2 with openness and simplicity in mind. 

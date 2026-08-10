@@ -4,5 +4,5 @@ title: Midimalism
 owner: CaptainCredible
 license: MIT
 site: http://www.captaincredible.com/
-source: https://www.captaincredible.com/midimalism-build/
+source: https://github.com/CaptainCredible/Midimalism/
 ---

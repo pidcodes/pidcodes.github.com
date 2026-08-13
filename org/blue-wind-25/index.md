@@ -1,10 +1,11 @@
 ---
 layout: org
 title: Blue Wind 25
-site: https://sourceforge.net/projects/jxmake/
+site: https://github.com/blue-wind-25
 ---
-JxMake is a Java‑based, cross‑platform build system inspired by the syntax and features of GNU Make, Perforce Jam, and CMake.
 
-In addition, JxMake provides several capabilities not typically found in other console‑based build systems, including a built‑in lightweight GUI, serial console, serial plotter, multi‑MCU in‑system programmer, and more.
+Blue Wind 25 (Aloysius Indrayanto) is an Open Source Hardware (OSHW) developer and open-source contributor
+focused on hardware designs and build tool configurations.
 
-It also includes hardware schematics and PCB designs for generic GPIO, MCU programmers, and related tools.
+* **GitHub:** [github.com/blue-wind-25](https://github.com/blue-wind-25)
+* **SourceForge:** [sourceforge.net/u/blue_wind_25](https://sourceforge.net/u/blue_wind_25/profile)

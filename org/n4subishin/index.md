@@ -1,6 +1,7 @@
 ---
 layout: org
-title: My organisation
-site: http://www.myorg.org/
+title: n4subishin
+site: https://github.com/n4subishin
 ---
-A short description of my organisation and what it does.
+
+Individual maker of custom keyboards and macropads based in Japan.

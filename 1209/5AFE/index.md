@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: skyBlip
-owner: skyBlip
+owner: skyblip
 license: GPL-3.0-only
 site: https://skyblip.eu/
 source: https://github.com/fcatuhe/skyblip/tree/main/firmware

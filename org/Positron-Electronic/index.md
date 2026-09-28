@@ -1,6 +1,6 @@
 ---
 layout: org
 title: Positron Electronic
-site: https://github.com/juarendra
+repo: https://github.com/juarendra
 ---
-Custom mechanical keyboard and macropad maker from Indonesia.
+Positron Electronic is an open-source hardware creator focusing on custom keypads and macropads.

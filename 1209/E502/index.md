@@ -1,9 +1,9 @@
 ---
 layout: pid
-title: KERIgoKBD v1
+title: KERIgoKBD v2
 owner: kerislab
 license: GPL v2
 site: https://www.kerislab.jp/
 source: https://github.com/kerikun11/kerigokbd
 ---
-KERI's Ergonomic Keyboard Version 1
+KERI's Ergonomic Keyboard Version 2

@@ -4,7 +4,7 @@ title: HealthyPi 6
 owner: Protocentral
 license: MIT (firmware) / CERN-OHL-P v2 (hardware)
 site: https://github.com/Protocentral/healthypi-6-fw
-source: https://github.com/Protocentral/healthypi-6-fw; https://github.com/Protocentral/protocentral_healthypi6_hardware
+source: https://github.com/Protocentral/healthypi-6-fw
 ---
 HealthyPi 6 is an open-source multi-parameter biosignal monitor that measures
 ECG (Lead I, Lead II and V1), thoracic-impedance respiration, PPG/SpO2 and body

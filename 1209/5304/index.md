@@ -3,6 +3,6 @@ layout: pid
 title: USB thermocouple logger
 owner: klingler
 license: MIT
-site: http://www.mysite.com/
+site: https://www.klingler.net/
 source: https://github.com/richardklingler/usbthermocouple
 ---

@@ -2,7 +2,7 @@
 layout: pid
 title: Blue Baton
 owner: ENFP-Dev-Studio
-license: GPL-3.0
+license: GPL-3.0-only
 site: https://github.com/enfp-dev-studio/blue-baton
 source: https://github.com/enfp-dev-studio/blue-baton
 ---

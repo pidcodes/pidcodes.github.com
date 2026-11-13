@@ -3,8 +3,8 @@ layout: pid
 title: MacVisor USB Audio
 owner: scaleninja
 license: MIT
-site: https://github.com/scaleninja/macvisor-usb-audio
-source: https://github.com/scaleninja/macvisor-usb-audio
+site: https://github.com/macvisor/macvisor-usb-audio
+source: https://github.com/macvisor/macvisor-usb-audio
 ---
 A software-defined USB Audio Class 1.0 device: a stereo speaker and a stereo microphone at 48 kHz, 16-bit. MacVisor presents it to Windows virtual machines over the USB/IP protocol, and Windows binds its built-in USB Audio driver (usbaudio.sys). So Windows on Arm VMs get sound with Microsoft's own driver, with no third-party or test-signed audio driver.
 

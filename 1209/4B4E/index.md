@@ -1,7 +1,7 @@
 ---
 layout: pid
 title: 32u4HID-C
-owner: Kjern
+owner: KjernNo
 license: Apache-2.0
 site: https://kjern.no
 source: https://github.com/KjernNo/Kjern-32u4HID-C

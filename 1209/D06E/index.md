@@ -1,10 +1,10 @@
 ---
 layout: pid
-title: OpenDongle
+title: SpareDongle
 owner: valeronm
 license: MIT
-site: https://github.com/valeronm/open-dongle
-source: https://github.com/valeronm/open-dongle
+site: https://github.com/valeronm/spare-dongle
+source: https://github.com/valeronm/spare-dongle
 ---
 An open-source 2.4 GHz wireless keyboard receiver based on an nRF52840 board,
 currently supporting the NuPhy Air75 V2. It uses an unmodified Pro Micro

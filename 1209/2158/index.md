@@ -1,0 +1,9 @@
+---
+layout: pid
+title:FRC2158 CAN Analyzer
+owner: CassarAndSonIndustries
+license: MIT
+site: https://csi.cassarfarms.us/
+source: http://github.com/myorg/mydevice/
+---
+The FRC2158 CAN Analyzer is Team 2158's pit tool for the robot's CAN bus. It connects through the RH-02-PRO USB adapter, or runs with no hardware on a built-in demo robot or a saved log. The page lists every device it hears (SystemCore, CTRE, REV and others) and compares them with the team's device map. It flags missing, unknown and duplicate IDs and gives the robot a CAN health score. It also shows bus load and heartbeat timing, decodes frames into plain words, and can make a device blink so you can find it on the robot.
